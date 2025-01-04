@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "ward:mattermulipulator"
+  },
+  "base": {
+    "item": "ward:corrupted_ingot"
+  },
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "result": {
+    "item": "ward:part_2"
+  }
+}

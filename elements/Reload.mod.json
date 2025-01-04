@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NONE",
+    "keyBindingName": "Reload",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "MatterBulletProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fe_system:block/pump"
+    },
+    "facing=east": {
+      "model": "fe_system:block/pump",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fe_system:block/pump",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fe_system:block/pump",
+      "y": 270
+    }
+  }
+}

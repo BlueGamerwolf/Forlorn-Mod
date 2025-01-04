@@ -1,0 +1,7 @@
+{
+  "parent": "ward:custom/spirit_orb",
+  "textures": {
+    "0": "ward:block/ball",
+    "particle": "ward:item/ball"
+  }
+}

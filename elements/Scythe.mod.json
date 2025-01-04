@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptedIngot"
+      },
+      {
+        "value": "CUSTOM:Part1"
+      },
+      {
+        "value": "CUSTOM:CorruptedIngot"
+      },
+      {
+        "value": "CUSTOM:Part2"
+      },
+      {
+        "value": "CUSTOM:CorruptedIngot"
+      },
+      {
+        "value": "CUSTOM:Part3"
+      },
+      {
+        "value": "CUSTOM:CorruptedIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CorruptedReaperScythe"
+    },
+    "name": "scythe",
+    "namespace": "mod"
+  }
+}

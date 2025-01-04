@@ -1,0 +1,9 @@
+{
+  "parent": "fe_system:custom/electrical_cable_f",
+  "textures": {
+    "all": "fe_system:block/electrical_cable",
+    "particle": "fe_system:block/electrical_cable",
+    "cable": "fe_system:block/electrical_cable"
+  },
+  "render_type": "cutout"
+}

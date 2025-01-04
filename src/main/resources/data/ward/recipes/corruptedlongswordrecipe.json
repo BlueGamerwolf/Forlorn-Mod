@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "ward:corrupted_ingot"
+    },
+    "b": {
+      "item": "minecraft:nether_star"
+    },
+    "c": {
+      "item": "ward:corruptedsword"
+    }
+  },
+  "result": {
+    "item": "ward:corruptedlong_sword",
+    "count": 1
+  }
+}

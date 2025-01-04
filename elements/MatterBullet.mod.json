@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:MatterBall"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.warden.sonic_boom"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 10.0,
+    "knockback": 10,
+    "entityModel": "ModelCustomModel",
+    "customModelTexture": "matter_bullet.png",
+    "onHitsEntity": {
+      "name": "MatterBulletProjectileHitsLivingEntity"
+    }
+  }
+}

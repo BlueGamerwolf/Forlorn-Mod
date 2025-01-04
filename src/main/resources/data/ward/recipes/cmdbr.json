@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:silence_armor_trim_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "ward:commandingot"
+  },
+  "result": {
+    "item": "ward:commandset_boots"
+  }
+}

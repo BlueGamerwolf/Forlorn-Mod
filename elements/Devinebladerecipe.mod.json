@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 144000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:CorruptedlongSword"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:DevineBlade"
+    },
+    "name": "devinebladerecipe",
+    "namespace": "mod"
+  }
+}

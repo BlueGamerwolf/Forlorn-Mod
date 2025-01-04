@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " RFR RFR ",
+    " FIF FIF ",
+    " RFR RFR ",
+    "RRRR RRRR",
+    "RRRR RRRR"
+  ],
+  "key": {
+    "R": {
+      "Item": "projecte:red_matter_block"
+    },
+    "I": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "F": {
+      "item": "projectexpansion:fading_matter_block"
+    },
+  "result": {
+    "item": "projecte:gem_boots",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ward:custom/sniper",
+  "textures": {
+    "0": "ward:block/sniper",
+    "particle": "ward:item/sniper"
+  }
+}

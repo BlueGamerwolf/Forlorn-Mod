@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "da "
+  ],
+  "key": {
+    "a": {
+      "item": "ward:corrupted_ingot"
+    },
+    "b": {
+      "item": "ward:part_1"
+    },
+    "c": {
+      "item": "ward:part_2"
+    },
+    "d": {
+      "item": "ward:part_3"
+    }
+  },
+  "result": {
+    "item": "ward:corrupted_reaper_scythe",
+    "count": 1
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "FFFNHNFFF",
+    "FKSHGHSKF",
+    "FZGHSHGZF",
+    "FXZGSGZXF",
+    "FXAVBVAXF",
+    "FXDVCVDXF",
+    "FXMVVVMXF",
+    "FFFNHNFFF"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:end_crystal"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "H": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "K": {
+      "item": "create:blaze_cake"
+    },
+    "G": {
+      "item": "ward:commandingot"
+    },
+    "F": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "minecraft:dragon_breath"
+    },
+    "D": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_ingot"
+    },
+    "V": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Z": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "result": {
+    "item": "ward:corrupted_ingot",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

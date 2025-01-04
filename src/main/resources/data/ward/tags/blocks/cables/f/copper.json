@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "ward:cable_energy_n",
+    "ward:cable_energy_i",
+    "ward:cable_energy_lc",
+    "ward:cable_energy_lcc",
+    "ward:cable_energy_lt",
+    "ward:cable_energy_ltc",
+    "ward:cable_energy_t",
+    "ward:cable_energy_tc",
+    "ward:cable_energy_tx",
+    "ward:cable_energy_txc",
+    "ward:cable_energy_txcc",
+    "ward:cable_energy_f",
+    "ward:cable_energy_s",
+    "ward:cable_energy_e",
+    "ward:cable_energy_x",
+    "ward:cable_energy_xc",
+    "ward:cable_endergy_l"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "fe_system:pipe_n",
+    "fe_system:pipe_e",
+    "fe_system:pipe_i",
+    "fe_system:pipe_l",
+    "fe_system:pipe_lc",
+    "fe_system:pipe_lcc",
+    "fe_system:pipe_lt",
+    "fe_system:pipe_ltc",
+    "fe_system:pipe_t",
+    "fe_system:pipe_tc",
+    "fe_system:pipe_tx",
+    "fe_system:pipe_txc",
+    "fe_system:pipe_txcc",
+    "fe_system:pipe_x",
+    "fe_system:pipe_xc",
+    "fe_system:pipe_f",
+    "fe_system:pipe_s",
+    "fe_system:pump",
+    "fe_system:quarry"
+  ]
+}

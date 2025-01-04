@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_AXE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Commandingot"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHER_STAR"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Commandaxe"
+    },
+    "name": "cmdar",
+    "namespace": "mod"
+  }
+}

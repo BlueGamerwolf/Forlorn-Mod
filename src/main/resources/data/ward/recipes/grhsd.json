@@ -1,0 +1,55 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "IIISSSIII",
+    "IHLLYLLCI",
+    "ILLYOYLLI",
+    "SLYOWOYLS",
+    "SYOWPWOYS",
+    "SLYOWOYLS",
+    "ILLYOYLLI",
+    "ILLLYLLBI",
+    "IIISSSIII"
+  ],
+  "key": {
+    "K": {
+      "Item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "P": {
+      "item": "projecte:philosophers_stone"
+    },
+    "H": {
+      "item": "projecte:gem_helmet"
+    },
+    "C": {
+      "item": "projecte:gem_chestplate"
+    },
+    "I": {
+      "item": "projecte:gem_leggings"
+    },
+    "B": {
+      "item": "projecte:gem_boots"  
+    },
+    "W": {
+      "item": "projectexpansion:white_matter_block"
+    },
+    "O": {
+      "item": "projectexpansion:orange_matter_block"
+    },
+    "Y": {
+      "item": "projectexpansion:yellow_matter_block"
+       
+     },
+    "L": {
+      "item": "projectexpansion:lime_matter_block"
+    }
+  },
+  "result": {
+    "item": "projecte:transmutation_table",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

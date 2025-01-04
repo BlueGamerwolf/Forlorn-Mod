@@ -1,0 +1,23 @@
+
+package net.mcreator.ward.client.renderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
+import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.model.geom.ModelLayers;
+import net.minecraft.client.model.HumanoidModel;
+
+import net.mcreator.ward.entity.BluegamerwolfEntity;
+
+public class BluegamerwolfRenderer extends HumanoidMobRenderer<BluegamerwolfEntity, HumanoidModel<BluegamerwolfEntity>> {
+	public BluegamerwolfRenderer(EntityRendererProvider.Context context) {
+		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
+		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+	}
+
+	@Override
+	public ResourceLocation getTextureLocation(BluegamerwolfEntity entity) {
+		return new ResourceLocation("ward:textures/entities/93e7e3b129c46b41.png");
+	}
+}

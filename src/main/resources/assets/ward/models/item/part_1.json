@@ -1,0 +1,7 @@
+{
+  "parent": "ward:custom/scythe_part_1",
+  "textures": {
+    "0": "ward:block/scythe",
+    "particle": "ward:item/scythe"
+  }
+}

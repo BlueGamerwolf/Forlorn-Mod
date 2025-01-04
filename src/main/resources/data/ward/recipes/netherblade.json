@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:trident"
+  },
+  "base": {
+    "item": "ward:human_blade"
+  },
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "result": {
+    "item": "ward:netherline_blade"
+  }
+}

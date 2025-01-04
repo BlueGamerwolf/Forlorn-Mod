@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "matter_bullet"
+      },
+      "name": "default"
+    }
+  }
+}

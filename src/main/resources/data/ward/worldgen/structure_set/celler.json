@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ward:celler",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 101,
+    "separation": 100,
+    "salt": 2043988766
+  }
+}

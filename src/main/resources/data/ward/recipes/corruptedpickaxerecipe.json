@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 100000,
+  "cookingtime": 6000000,
+  "ingredient": {
+    "item": "ward:matter_ball"
+  },
+  "result": "ward:corrupted_pickaxe"
+}

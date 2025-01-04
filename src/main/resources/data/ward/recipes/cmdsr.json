@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "ward:enderline_blade"
+  },
+  "addition": {
+    "item": "ward:commandingot"
+  },
+  "result": {
+    "item": "ward:command_blade"
+  }
+}

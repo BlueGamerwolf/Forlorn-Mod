@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ward:block/sculk",
+    "up": "ward:block/sculk",
+    "north": "ward:block/sculk",
+    "east": "ward:block/sculk",
+    "south": "ward:block/sculk",
+    "west": "ward:block/sculk",
+    "particle": "ward:block/sculk"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:light_blue_stained_glass_pane"
+    },
+    "c": {
+      "item": "ward:cable_energy_n"
+    }
+  },
+  "result": {
+    "item": "ward:lucky",
+    "count": 1
+  }
+}

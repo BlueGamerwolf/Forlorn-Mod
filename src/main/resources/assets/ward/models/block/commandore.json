@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ward:block/command_ore",
+    "up": "ward:block/command_ore",
+    "north": "ward:block/command_ore",
+    "east": "ward:block/command_ore",
+    "south": "ward:block/command_ore",
+    "west": "ward:block/command_ore",
+    "particle": "ward:block/command_ore"
+  },
+  "render_type": "solid"
+}

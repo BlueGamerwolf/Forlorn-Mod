@@ -1,0 +1,7 @@
+{
+  "parent": "ward:custom/corrupted_pickaxe",
+  "textures": {
+    "0": "ward:block/picks-_copy",
+    "particle": "ward:item/picks-_copy"
+  }
+}

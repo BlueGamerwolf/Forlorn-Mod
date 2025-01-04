@@ -1,0 +1,11 @@
+{
+  "warden_end_fight": {
+    "subtitle": "subtitles.warden_end_fight",
+    "sounds": [
+      {
+        "name": "ward:back_into_darkness_piano_synthesia_-_blacklite_district_tuberipper.com",
+        "stream": true
+      }
+    ]
+  }
+}

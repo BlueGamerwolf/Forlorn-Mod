@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "RRR   RRR",
+    "RRRFFFRRR",
+    "RRRFIFRRR",
+    "RRRFFFRRR",
+    "RRRRRRRRR",
+    "RRRRRRRRR",
+    "RRRRRRRRR",
+    "RRRRRRRRR",
+    "RRRRRRRRR"
+  ],
+  "key": {
+    "R": {
+      "Item": "projecte:red_matter_block"
+    },
+    "I": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "F": {
+      "item": "projectexpansion:fading_matter_block"
+    },
+  "result": {
+    "item": "projecte:gem_chestplate",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

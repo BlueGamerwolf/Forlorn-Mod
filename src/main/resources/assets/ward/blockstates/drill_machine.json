@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fe_system:block/drill_machine"
+    },
+    "facing=east": {
+      "model": "fe_system:block/drill_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fe_system:block/drill_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fe_system:block/drill_machine",
+      "y": 270
+    }
+  }
+}

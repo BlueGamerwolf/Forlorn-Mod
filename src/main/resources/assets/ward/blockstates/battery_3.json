@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fe_system:block/battery_3"
+    },
+    "facing=east": {
+      "model": "fe_system:block/battery_3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fe_system:block/battery_3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fe_system:block/battery_3",
+      "y": 270
+    }
+  }
+}

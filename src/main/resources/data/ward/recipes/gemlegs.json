@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "RRRFFFRRR",
+    "RRRFIFRRR",
+    "RRRFFFRRR",
+    "RRRRRRRRR",
+    "RRR   RRR",
+    "RRR   RRR",
+    "RRR   RRR",
+    "RRR   RRR",
+    "RRR   RRR"],
+  "key": {
+    "R": {
+      "Item": "projecte:red_matter_block"
+    },
+    "I": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "F": {
+      "item": "projectexpansion:fading_matter_block"
+    },
+  "result": {
+    "item": "projecte:gem_leggings",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

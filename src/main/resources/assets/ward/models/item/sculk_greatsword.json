@@ -1,0 +1,7 @@
+{
+  "parent": "ward:custom/diamond_sword",
+  "textures": {
+    "2": "ward:block/stiched_texture",
+    "particle": "ward:item/stiched_texture"
+  }
+}

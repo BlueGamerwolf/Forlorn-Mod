@@ -1,0 +1,3205 @@
+{
+  "mod_elements": [
+    {
+      "name": "CorruptedReaperScythe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_reaper_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CorruptedReaperScytheItem.java",
+          "src/main/resources/assets/ward/models/item/corrupted_reaper_scythe.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "CorruptedIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corrupted_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CorruptedIngotItem.java",
+          "src/main/resources/assets/ward/models/item/corrupted_ingot.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Part1",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "part_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/Part1Item.java",
+          "src/main/resources/assets/ward/models/item/part_1.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Part2",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "part_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/part_2.json",
+          "src/main/java/net/mcreator/ward/item/Part2Item.java"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Part3",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "part_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/Part3Item.java",
+          "src/main/resources/assets/ward/models/item/part_3.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Part3recipy",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "part_3recipy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/part_3recipy.json"
+        ]
+      },
+      "path": "~/recipe/weapons/CorruptedScytheRecipes"
+    },
+    {
+      "name": "Mattermulipulator",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mattermulipulator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/mattermulipulator.json",
+          "src/main/java/net/mcreator/ward/item/MattermulipulatorItem.java"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Corruptedarmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/corruptedarmor_chestplate.json",
+          "src/main/resources/assets/ward/models/item/corruptedarmor_leggings.json",
+          "src/main/java/net/mcreator/ward/item/CorruptedarmorItem.java",
+          "src/main/resources/assets/ward/models/item/corruptedarmor_helmet.json",
+          "src/main/resources/assets/ward/models/item/corruptedarmor_boots.json"
+        ]
+      },
+      "path": "~/items/armor"
+    },
+    {
+      "name": "Part1recipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "part_1recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/part_1recipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/CorruptedScytheRecipes"
+    },
+    {
+      "name": "Scythe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/scythe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/CorruptedScytheRecipes"
+    },
+    {
+      "name": "Part2recipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "part_2recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/part_2recipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/CorruptedScytheRecipes"
+    },
+    {
+      "name": "Forlorn",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forlorn",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative tab"
+    },
+    {
+      "name": "Mattermulipulatorduperecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mattermulipulatorduperecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/mattermulipulatorduperecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Forlorntable1",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forlorntable_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/loot_tables/blocks/forlorntable_1.json"
+        ]
+      },
+      "path": "~/LootTables"
+    },
+    {
+      "name": "Corruptedsword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CorruptedswordItem.java",
+          "src/main/resources/assets/ward/models/item/corruptedsword.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "Corruptedswordrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/corruptedswordrecipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/Corruptedswords"
+    },
+    {
+      "name": "Corruptedlongswordrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedlongswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/corruptedlongswordrecipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/Corruptedswords"
+    },
+    {
+      "name": "CorruptedlongSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedlong_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/corruptedlong_sword.json",
+          "src/main/java/net/mcreator/ward/item/CorruptedlongSwordItem.java"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "SculkGreatsword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_greatsword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/SculkGreatswordItem.java",
+          "src/main/resources/assets/ward/models/item/sculk_greatsword.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "SpiritBall",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/spirit_ball.json",
+          "src/main/java/net/mcreator/ward/item/SpiritBallItem.java"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "BlossomScythe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blossom_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/blossom_scythe.json",
+          "src/main/java/net/mcreator/ward/item/BlossomScytheItem.java"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "Generator",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/GeneratorProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "CableEnergyN",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyNBlockEntity.java",
+          "src/main/resources/assets/ward/blockstates/cable_energy_n.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_n.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyNBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_n.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyI",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/CableEnergyIBlock.java",
+          "src/main/resources/assets/ward/models/block/cable_energy_i.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyIBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_i.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_i.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyUpdateTick",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables"
+    },
+    {
+      "name": "CableEnergyLC",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_lc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/cable_energy_lc.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_lc.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyLCBlock.java",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyLCBlockEntity.java",
+          "src/main/resources/assets/ward/models/block/cable_energy_lc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyLCC",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_lcc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/block/cable_energy_lcc.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_lcc.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyLCCBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_lcc.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyLCCBlock.java"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyLT",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/block/cable_energy_lt.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyLTBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_lt.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_lt.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyLTBlock.java"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyLTC",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_ltc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/blockstates/cable_energy_ltc.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_ltc.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyLTCBlock.java",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyLTCBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_ltc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyT",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/CableEnergyTBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_t.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyTBlockEntity.java",
+          "src/main/resources/assets/ward/blockstates/cable_energy_t.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_t.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyTC",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_tc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/CableEnergyTCBlock.java",
+          "src/main/resources/assets/ward/blockstates/cable_energy_tc.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_tc.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyTCBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_tc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyTX",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_tx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyTXBlockEntity.java",
+          "src/main/java/net/mcreator/ward/block/CableEnergyTXBlock.java",
+          "src/main/resources/assets/ward/models/block/cable_energy_tx.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_tx.json",
+          "src/main/resources/assets/ward/models/item/cable_energy_tx.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyTXC",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyTXCBlockEntity.java",
+          "src/main/java/net/mcreator/ward/block/CableEnergyTXCBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_txc.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_txc.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_txc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyTXCC",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_txcc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/block/cable_energy_txcc.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyTXCCBlock.java",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyTXCCBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_txcc.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_txcc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyF",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/cable_energy_f.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyFBlock.java",
+          "src/main/resources/assets/ward/blockstates/cable_energy_f.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_f.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyFBlockEntity.java"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyS",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/CableEnergySBlock.java",
+          "src/main/resources/assets/ward/blockstates/cable_energy_s.json",
+          "src/main/resources/assets/ward/models/block/cable_energy_s.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergySBlockEntity.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_s.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyUpdateTickEnergy",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cable_energy_update_tick_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Energy"
+    },
+    {
+      "name": "CableEnergyE",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyEBlockEntity.java",
+          "src/main/resources/assets/ward/models/block/cable_energy_e.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyEBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_e.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_e.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyX",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/block/cable_energy_x.json",
+          "src/main/java/net/mcreator/ward/block/CableEnergyXBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_energy_x.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_x.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyXBlockEntity.java"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyXC",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_xc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/entity/CableEnergyXCBlockEntity.java",
+          "src/main/java/net/mcreator/ward/block/CableEnergyXCBlock.java",
+          "src/main/resources/assets/ward/models/block/cable_energy_xc.json",
+          "src/main/resources/assets/ward/blockstates/cable_energy_xc.json",
+          "src/main/resources/assets/ward/models/item/cable_energy_xc.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "CableEnergyUpdateTickModels",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsN",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsNProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsE",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsI",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsL",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsLC",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsLCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsLCC",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_lcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsLCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsLT",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_lt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsLTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsLTC",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_ltc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsLTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsT",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsTC",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_tc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsTX",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_tx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsTXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsTXC",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsTXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsTXCC",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_txcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsTXCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsX",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsXC",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_xc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsF",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "CableEnergyUpdateTickModelsS",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_energy_update_tick_models_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CableEnergyUpdateTickModelsSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/Cables/Models"
+    },
+    {
+      "name": "MPDR",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpdr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/mpdr.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CHR",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/chr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CCR",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/ccr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CLR",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/clr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CBR",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cbr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CorruptedPickaxe",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corrupted_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CorruptedPickaxeItem.java",
+          "src/main/resources/assets/ward/models/item/corrupted_pickaxe.json"
+        ]
+      },
+      "path": "~/items/tools"
+    },
+    {
+      "name": "Corruptedpickaxerecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "corruptedpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/corruptedpickaxerecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlockTagCablesFCopper",
+      "type": "tag",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_cables_f_copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/tags/blocks/cables/f/copper.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CableEndergyL",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_endergy_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/blockstates/cable_endergy_l.json",
+          "src/main/java/net/mcreator/ward/block/entity/CableEndergyLBlockEntity.java",
+          "src/main/resources/assets/ward/models/block/cable_endergy_l.json",
+          "src/main/java/net/mcreator/ward/block/CableEndergyLBlock.java",
+          "src/main/resources/assets/ward/models/item/cable_endergy_l.json"
+        ]
+      },
+      "path": "~/items/cables"
+    },
+    {
+      "name": "MatterBall",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matter_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/MatterBallItem.java",
+          "src/main/resources/assets/ward/models/item/matter_ball.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Run",
+      "type": "command",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/command/RunCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "DevineEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "devine_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/DevineEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "DevineBlade",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devine_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/DevineBladeItem.java",
+          "src/main/resources/assets/ward/models/item/devine_blade.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "MatterBullet",
+      "type": "projectile",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matter_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/client/renderer/MatterBulletRenderer.java",
+          "src/main/java/net/mcreator/ward/entity/MatterBulletEntity.java"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "Corruptedsniper",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedsniper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/corruptedsniper.json",
+          "src/main/java/net/mcreator/ward/item/CorruptedsniperItem.java"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "MatterBulletProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "matter_bullet_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/MatterBulletProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/script/sniper"
+    },
+    {
+      "name": "CorruptedsniperRightclicked",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedsniper_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CorruptedsniperRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/script/sniper"
+    },
+    {
+      "name": "Cable",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cable.json"
+        ]
+      },
+      "path": "~/recipe/blocks"
+    },
+    {
+      "name": "CorruptedSniperRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_sniper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/corrupted_sniper_recipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons/sniper"
+    },
+    {
+      "name": "CorruptedSniperrecipe2",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_sniperrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/corrupted_sniperrecipe_2.json"
+        ]
+      },
+      "path": "~/recipe/weapons/sniper"
+    },
+    {
+      "name": "Matterballrecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matterballrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/matterballrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SculkGreatSwordRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_great_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/sculk_great_sword_recipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "Blaze",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blaze",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/blaze.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Celler",
+      "type": "structure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "celler",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/worldgen/template_pool/celler.json",
+          "src/main/resources/data/ward/worldgen/structure/celler.json",
+          "src/main/resources/data/ward/worldgen/structure_set/celler.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Luck",
+      "type": "loottable",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/loot_tables/chests/luck.json"
+        ]
+      },
+      "path": "~/LootTables/blocks"
+    },
+    {
+      "name": "Devinebladerecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "devinebladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/devinebladerecipe.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "Ward",
+      "type": "painting",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ward",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Lucky",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/LuckyBlock.java",
+          "src/main/resources/assets/ward/models/item/lucky.json",
+          "src/main/resources/assets/ward/blockstates/lucky.json",
+          "src/main/resources/assets/ward/models/block/lucky.json"
+        ]
+      },
+      "path": "~/items/blocks"
+    },
+    {
+      "name": "WardenGod",
+      "type": "tag",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "warden_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/tags/entity_types/warden_god.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Luckyblock",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luckyblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/LuckyblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "LuckyBlockRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/lucky_block_recipe.json"
+        ]
+      },
+      "path": "~/recipe/blocks"
+    },
+    {
+      "name": "Owner",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/OwnerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "SculkNuke",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_nuke",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/sculk_nuke.json",
+          "src/main/resources/assets/ward/blockstates/sculk_nuke.json",
+          "src/main/resources/assets/ward/models/block/sculk_nuke.json",
+          "src/main/java/net/mcreator/ward/block/SculkNukeBlock.java"
+        ]
+      },
+      "path": "~/items/blocks"
+    },
+    {
+      "name": "SculkNukeBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_nuke_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/SculkNukeBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "Warden",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/WardenItem.java",
+          "src/main/resources/assets/ward/models/item/warden.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Was",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "was",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/was.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Death",
+      "type": "livingentity",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/entity/DeathEntity.java",
+          "src/main/java/net/mcreator/ward/client/renderer/DeathRenderer.java",
+          "src/main/resources/assets/ward/models/item/death_spawn_egg.json",
+          "src/main/resources/data/ward/forge/biome_modifier/death_biome_modifier.json"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "Spawn",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/spawn.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Idk",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/IdkProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "Wesde",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wesde",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/wesde.json"
+        ]
+      },
+      "path": "~/recipe/Recipes for projecte"
+    },
+    {
+      "name": "Sdwgd",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sdwgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/sdwgd.json"
+        ]
+      },
+      "path": "~/recipe/Recipes for projecte"
+    },
+    {
+      "name": "Gefegs",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gefegs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/gefegs.json"
+        ]
+      },
+      "path": "~/recipe/Recipes for projecte"
+    },
+    {
+      "name": "Gdsfesf",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gdsfesf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/gdsfesf.json"
+        ]
+      },
+      "path": "~/recipe/Recipes for projecte"
+    },
+    {
+      "name": "Grhsd",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "grhsd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/grhsd.json"
+        ]
+      },
+      "path": "~/recipe/Recipes for projecte"
+    },
+    {
+      "name": "ReloadOnKeyPressed",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/ReloadOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "Reload",
+      "type": "keybind",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/ReloadMessage.java"
+        ]
+      },
+      "path": "~/script/Keybind"
+    },
+    {
+      "name": "CorruptedsniperItemInHandTick",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedsniper_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/CorruptedsniperItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/sniper"
+    },
+    {
+      "name": "Commandingot",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CommandingotItem.java",
+          "src/main/resources/assets/ward/models/item/commandingot.json"
+        ]
+      },
+      "path": "~/items/ingredeants"
+    },
+    {
+      "name": "Commandore",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/forge/biome_modifier/commandore_biome_modifier.json",
+          "src/main/resources/data/ward/worldgen/configured_feature/commandore.json",
+          "src/main/resources/assets/ward/models/item/commandore.json",
+          "src/main/resources/assets/ward/blockstates/commandore.json",
+          "src/main/java/net/mcreator/ward/block/CommandoreBlock.java",
+          "src/main/resources/assets/ward/models/block/commandore.json",
+          "src/main/resources/data/ward/worldgen/placed_feature/commandore.json"
+        ]
+      },
+      "path": "~/items/blocks"
+    },
+    {
+      "name": "Commandaxe",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CommandaxeItem.java",
+          "src/main/resources/assets/ward/models/item/commandaxe.json"
+        ]
+      },
+      "path": "~/items/tools"
+    },
+    {
+      "name": "CommandPickaxe",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/command_pickaxe.json",
+          "src/main/java/net/mcreator/ward/item/CommandPickaxeItem.java"
+        ]
+      },
+      "path": "~/items/tools"
+    },
+    {
+      "name": "Commandshuvel",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandshuvel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/commandshuvel.json",
+          "src/main/java/net/mcreator/ward/item/CommandshuvelItem.java"
+        ]
+      },
+      "path": "~/items/tools"
+    },
+    {
+      "name": "CommandHoe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/command_hoe.json",
+          "src/main/java/net/mcreator/ward/item/CommandHoeItem.java"
+        ]
+      },
+      "path": "~/items/tools"
+    },
+    {
+      "name": "CommandBlade",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CommandBladeItem.java",
+          "src/main/resources/assets/ward/models/item/command_blade.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "EndGameFight",
+      "type": "musicdisc",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_game_fight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/end_game_fight.json",
+          "src/main/java/net/mcreator/ward/item/EndGameFightItem.java"
+        ]
+      },
+      "path": "~/items/Disk"
+    },
+    {
+      "name": "Wardenluckyblock",
+      "type": "loottable",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wardenluckyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/loot_tables/blocks/wardenluckyblock.json"
+        ]
+      },
+      "path": "~/LootTables/blocks"
+    },
+    {
+      "name": "Bluegamerwolf",
+      "type": "livingentity",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluegamerwolf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/client/renderer/BluegamerwolfRenderer.java",
+          "src/main/resources/assets/ward/models/item/bluegamerwolf_spawn_egg.json",
+          "src/main/java/net/mcreator/ward/entity/BluegamerwolfEntity.java"
+        ]
+      },
+      "path": "~/entities"
+    },
+    {
+      "name": "Wlb1",
+      "type": "structure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wlb_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/worldgen/template_pool/wlb_1.json",
+          "src/main/resources/data/ward/worldgen/structure_set/wlb_1.json",
+          "src/main/resources/data/ward/worldgen/structure/wlb_1.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Wlb2",
+      "type": "structure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wlb_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/worldgen/structure_set/wlb_2.json",
+          "src/main/resources/data/ward/worldgen/structure/wlb_2.json",
+          "src/main/resources/data/ward/worldgen/template_pool/wlb_2.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Wlb3",
+      "type": "structure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wlb_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/worldgen/structure/wlb_3.json",
+          "src/main/resources/data/ward/worldgen/template_pool/wlb_3.json",
+          "src/main/resources/data/ward/worldgen/structure_set/wlb_3.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Commandset",
+      "type": "armor",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/CommandsetItem.java",
+          "src/main/resources/assets/ward/models/item/commandset_helmet.json",
+          "src/main/resources/assets/ward/models/item/commandset_boots.json",
+          "src/main/resources/assets/ward/models/item/commandset_leggings.json",
+          "src/main/resources/assets/ward/models/item/commandset_chestplate.json"
+        ]
+      },
+      "path": "~/items/armor"
+    },
+    {
+      "name": "CMDHR",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdhr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdhr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CMDCR",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdcr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CMDLR",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdlr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdlr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CMDBR",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdbr.json"
+        ]
+      },
+      "path": "~/recipe/Armor"
+    },
+    {
+      "name": "CMDSR",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cmdsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdsr.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "CMDTR",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdtr.json"
+        ]
+      },
+      "path": "~/recipe/tools"
+    },
+    {
+      "name": "CMDSPR",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdspr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdspr.json"
+        ]
+      },
+      "path": "~/recipe/tools"
+    },
+    {
+      "name": "CMDPR",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdpr.json"
+        ]
+      },
+      "path": "~/recipe/tools"
+    },
+    {
+      "name": "CMDAR",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmdar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/cmdar.json"
+        ]
+      },
+      "path": "~/recipe/tools"
+    },
+    {
+      "name": "NetherlineBlade",
+      "type": "tool",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherline_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/NetherlineBladeItem.java",
+          "src/main/resources/assets/ward/models/item/netherline_blade.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "EnderlineBlade",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderline_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ward/models/item/enderline_blade.json",
+          "src/main/java/net/mcreator/ward/item/EnderlineBladeItem.java"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "HumanBlade",
+      "type": "tool",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/HumanBladeItem.java",
+          "src/main/resources/assets/ward/models/item/human_blade.json"
+        ]
+      },
+      "path": "~/items/weapons"
+    },
+    {
+      "name": "ENDBLADE",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "endblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/endblade.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "Netherblade",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/netherblade.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "Basicblade",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basicblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/basicblade.json"
+        ]
+      },
+      "path": "~/recipe/weapons"
+    },
+    {
+      "name": "Command",
+      "type": "tab",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative tab"
+    },
+    {
+      "name": "Commandingotrecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/commandingotrecipe.json"
+        ]
+      },
+      "path": "~/recipe/blocks"
+    },
+    {
+      "name": "BluegamerwolfOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluegamerwolf_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/BluegamerwolfOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "BluegamerwolfEntityDies",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bluegamerwolf_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/BluegamerwolfEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "ReloadOnKeyPressedR",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_on_key_pressed_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/ReloadOnKeyPressedRProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/Keybind"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "warden_end_fight",
+      "files": [
+        "back_into_darkness_piano_synthesia_-_blacklite_district_tuberipper.com"
+      ],
+      "category": "music",
+      "subtitle": "The Final Fight"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Nether Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "The Darkness Consumed %1$s",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Basic Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Ender Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    },
+    "sq_mk": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Command Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Ender Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Command Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    },
+    "af_za": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Command Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Ender Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Command Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    },
+    "af_na": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Command Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Ender Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Command Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    },
+    "ar_ae": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Command Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Ender Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Command Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    },
+    "ru_by": {
+      "item.ward.corruptedarmor_chestplate": "Corrupted Chestplate",
+      "item.ward.matter_ball": "Matter Ball",
+      "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
+      "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item.ward.commandshuvel": "Command shuvel",
+      "item.ward.commandset_leggings": "Commandset Leggings",
+      "entity.ward.death": "Death",
+      "block.ward.sculk_nuke": "Sculk Nuke",
+      "item.ward.death_spawn_egg": "Death Spawn Egg",
+      "block.ward.cable_energy_txc": "Cable Energyn",
+      "item.ward.devine_blade": "Devine Blade",
+      "item.ward.commandset_helmet": "Commandset Helmet",
+      "painting.ward.ward.author": "Blue_GamerwolfYT",
+      "item.ward.netherline_blade": "Command Blade",
+      "item.ward.part_2": "Part 2",
+      "item.ward.spirit_ball": "Spirit Orb",
+      "item.ward.part_1": "Part 1",
+      "block.ward.cable_energy_txcc": "Cable Energyn",
+      "block.ward.cable_energy_ltc": "Energy Cable",
+      "item.ward.part_3": "Part 3",
+      "item.ward.command_pickaxe": "Command Pickaxe",
+      "item_group.ward.command": "Command",
+      "block.ward.cable_energy_lcc": "Energy Cable",
+      "item.ward.sculk_greatsword": "Sculk Great Sword",
+      "death.attack.darkness": "",
+      "item.ward.bluegamerwolf_spawn_egg": "Blue_gamerwolf Spawn Egg",
+      "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
+      "block.ward.cable_energy_lc": "Energy Cable",
+      "block.ward.cable_energy_f": "Cable Energyn",
+      "block.ward.cable_energy_e": "Cable Energyn",
+      "item.ward.human_blade": "Ender Blade",
+      "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
+      "block.ward.cable_energy_i": "Energy Cable",
+      "item.ward.command_blade": "Command Blade",
+      "block.ward.cable_energy_n": "Energy Cable",
+      "block.ward.cable_energy_tc": "Cable Energyn",
+      "block.ward.cable_energy_s": "Cable Energyn",
+      "item.ward.mattermulipulator": "Matter Mulipulator",
+      "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.cable_energy_t": "Energy Cable",
+      "subtitles.warden_end_fight": "The Final Fight",
+      "block.ward.cable_energy_xc": "Cable Energy",
+      "block.ward.cable_energy_x": "Cable Energyn",
+      "painting.ward.ward.title": "Ward",
+      "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "item.ward.corruptedsword": "Corrupted Sword",
+      "item.ward.corruptedsniper": "Corrupted Sniper",
+      "block.ward.commandore": "Command Ore",
+      "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "item.ward.commandset_chestplate": "Commandset Chestplate",
+      "block.ward.cable_endergy_l": "Cable Energy",
+      "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.corrupted_ingot": "Corrupted Ingot",
+      "block.ward.cable_energy_tx": "Cable Energyn",
+      "block.ward.lucky": "Lucky",
+      "item.ward.blossom_scythe": "Blossom Scythe",
+      "item.ward.commandingot": "Command Ingot",
+      "key.ward.reload": "Reload",
+      "block.ward.cable_energy_lt": "Energy Cable",
+      "item.ward.end_game_fight": "End Game Fight",
+      "item.ward.command_hoe": "Command Hoe",
+      "item.ward.corruptedarmor_boots": "Corrupted Boots",
+      "item.ward.enderline_blade": "Command Blade",
+      "item.ward.commandaxe": "Command Axe",
+      "item.ward.warden": "."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "cables",
+            "children": []
+          },
+          {
+            "name": "tools",
+            "children": []
+          },
+          {
+            "name": "weapons",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "ingredeants",
+            "children": []
+          },
+          {
+            "name": "armor",
+            "children": []
+          },
+          {
+            "name": "Disk",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "recipe",
+        "children": [
+          {
+            "name": "Armor",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "weapons",
+            "children": [
+              {
+                "name": "CorruptedScytheRecipes",
+                "children": []
+              },
+              {
+                "name": "Corruptedswords",
+                "children": []
+              },
+              {
+                "name": "sniper",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Recipes for projecte",
+            "children": []
+          },
+          {
+            "name": "tools",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Creative tab",
+        "children": []
+      },
+      {
+        "name": "LootTables",
+        "children": [
+          {
+            "name": "blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "script",
+        "children": [
+          {
+            "name": "Cables",
+            "children": [
+              {
+                "name": "Models",
+                "children": []
+              },
+              {
+                "name": "Energy",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "sniper",
+            "children": []
+          },
+          {
+            "name": "Keybind",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "entities",
+        "children": []
+      },
+      {
+        "name": "TConstruct",
+        "children": [
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "fluid",
+            "children": []
+          },
+          {
+            "name": "modifiers",
+            "children": []
+          },
+          {
+            "name": "traits",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ward",
+    "modName": "forlorn",
+    "version": "1.0.0",
+    "description": "Tempararolry",
+    "author": "Blue_Gamerwolf",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "bettercombat",
+      "create",
+      "playeranimator",
+      "jei",
+      "cloth-config"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ward",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

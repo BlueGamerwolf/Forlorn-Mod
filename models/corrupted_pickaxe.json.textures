@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "picks-_copy"
+      },
+      "name": "default"
+    }
+  }
+}

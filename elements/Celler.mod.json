@@ -1,0 +1,29 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "celler",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 101,
+    "separation": 100,
+    "restrictionBiomes": [
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "badlands"
+      }
+    ],
+    "surfaceDetectionType": "OCEAN_FLOOR",
+    "terrainAdaptation": "bury",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

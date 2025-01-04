@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fe_system:block/cable_ltc"
+    },
+    "facing=east": {
+      "model": "fe_system:block/cable_ltc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fe_system:block/cable_ltc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fe_system:block/cable_ltc",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "fe_system:block/cable_ltc",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "fe_system:block/cable_ltc",
+      "x": 90
+    }
+  }
+}

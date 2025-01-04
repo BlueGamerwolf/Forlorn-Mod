@@ -1,0 +1,9 @@
+{
+  "parent": "ward:custom/electrical_cable_txcc",
+  "textures": {
+    "all": "ward:block/electrical_cable",
+    "particle": "ward:block/electrical_cable",
+    "texture": "ward:block/electrical_cable"
+  },
+  "render_type": "cutout"
+}

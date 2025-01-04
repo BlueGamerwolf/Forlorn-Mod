@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "RRRRRRRRR",
+    "FIFRRRFIF",
+    "FFFRRRFFF",
+    "RRRRRRRRR",
+    "RRR   RRR"
+  ],
+  "key": {
+    "R": {
+      "Item": "projecte:red_matter_block"
+    },
+    "I": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "F": {
+      "item": "projectexpansion:fading_matter_block"
+    }
+  },
+  "result": {
+    "item": "projecte:gem_helmet",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

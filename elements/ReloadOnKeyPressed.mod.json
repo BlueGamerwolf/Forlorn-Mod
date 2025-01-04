@@ -1,0 +1,7 @@
+{
+  "_fv": 57,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"140\" y=\"68\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><mutation else=\"1\"></mutation><value name=\"IF0\"><block type=\"item_istype\"><field name=\"item_type\">Bow</field><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value></block></value><statement name=\"DO0\"><block type=\"item_nbt_text_set\"><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">Loaded</field></block></value><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value><value name=\"tagValue\"><block type=\"text\"><field name=\"TEXT\">tagValue</field></block></value></block></statement><statement name=\"ELSE\"><block type=\"execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">This Item can't be Reloaded</field></block></value><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></statement></block></next></block></xml>"
+  }
+}

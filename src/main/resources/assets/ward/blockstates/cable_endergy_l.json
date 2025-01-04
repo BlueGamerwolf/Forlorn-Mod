@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ward:block/cable_endergy_l"
+    },
+    "facing=east": {
+      "model": "ward:block/cable_endergy_l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ward:block/cable_endergy_l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ward:block/cable_endergy_l",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ward:block/cable_endergy_l",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ward:block/cable_endergy_l",
+      "x": 90
+    }
+  }
+}

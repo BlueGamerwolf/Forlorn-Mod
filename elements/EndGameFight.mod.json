@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "End Game Fight",
+    "rarity": "COMMON",
+    "texture": "wolf",
+    "description": "The Fight Between The Presten and the Past",
+    "creativeTab": {
+      "value": "CUSTOM:Command"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:warden_end_fight"
+    },
+    "lengthInTicks": 4200,
+    "analogOutput": 15
+  }
+}

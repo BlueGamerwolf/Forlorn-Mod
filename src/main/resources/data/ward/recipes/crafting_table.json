@@ -1,0 +1,87 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  EBBBD  ",
+    "  EBBBD  ",
+    "OOOOOOOOO",
+    "ODDDDDDDO",
+    "OEEEWEEEO",
+    "OEEWWWEEO",
+    "ODEWWWEDO",
+    "ODDWWWDDO",
+    "OOOOOOOOO"],
+  "key": {
+    "O": {
+      "Item": "Minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+       }
+     },
+    "W": {
+      "item": "item:projectexpansion:white_matter_block"
+    }
+    {
+      "type": "create:mechanical_crafting",
+      "pattern": [
+        "IIISSSIII",
+        "IHLLYLLCI",
+        "ILLYOYLLI",
+        "SLYOWOYLS",
+        "SYOWPWOYS",
+        "SLYOWOYLS",
+        "ILLYOYLLI",
+        "ILLLYLLBI",
+        "IIISSSIII"],
+      "key": {
+        "K": {
+          "Item": "Minecraft:obsidian"
+        },
+        "S": {
+          "item": "Minecraft:stone"
+        },
+        "P": {
+          "item": "projecte:philosophers_stone"
+        } 
+         },
+        "H": {
+          "item": "projecte:gem_helmet"
+        }
+         },
+        "C": {
+          "item": "projecte:gem_chestplate"
+        }
+         },
+        "I": {
+          "item": "projecte:gem_leggings"
+        }
+         },
+        "B": {
+          "item": "projecte:gem_boots"
+           }
+         },
+        "W": {
+          "item": "item:projectexpansion:white_matter_block"
+           }
+         },
+        "O": {
+          "item": "item:projectexpansion:orange_matter_block"
+           }
+         },
+        "Y": {
+          "item": "item:projectexpansion:yellow_matter_block"
+           }
+         },
+        "L": {
+          "item": "item:projectexpansion:lime_matter_block"
+        }
+      },
+      "result": {
+        "item": "enchantinginfuser:enchanting_infuser",
+        "count": 1
+      },
+      "acceptMirrored": false
+    }

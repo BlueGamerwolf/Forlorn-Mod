@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ward:block/warden_lucky_block",
+    "up": "ward:block/warden_lucky_block",
+    "north": "ward:block/warden_lucky_block",
+    "east": "ward:block/warden_lucky_block",
+    "south": "ward:block/warden_lucky_block",
+    "west": "ward:block/warden_lucky_block",
+    "particle": "ward:block/warden_lucky_block"
+  },
+  "render_type": "solid"
+}

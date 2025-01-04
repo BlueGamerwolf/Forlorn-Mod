@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 144000,
+  "ingredient": {
+    "item": "ward:corruptedlong_sword"
+  },
+  "result": "ward:devine_blade"
+}

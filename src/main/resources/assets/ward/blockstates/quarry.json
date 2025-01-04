@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fe_system:block/quarry"
+    },
+    "facing=east": {
+      "model": "fe_system:block/quarry",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fe_system:block/quarry",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fe_system:block/quarry",
+      "y": 270
+    }
+  }
+}

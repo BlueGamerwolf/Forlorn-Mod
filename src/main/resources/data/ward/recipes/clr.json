@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "ward:mattermulipulator"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "ward:corrupted_ingot"
+  },
+  "result": {
+    "item": "ward:corruptedarmor_leggings"
+  }
+}

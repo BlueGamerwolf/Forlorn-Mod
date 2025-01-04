@@ -1,4 +1,3 @@
-
 package net.mcreator.ward.network;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -10,7 +9,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.ward.procedures.MatterBulletProjectileHitsLivingEntityProcedure;
+import net.mcreator.ward.procedures.ReloadOnKeyPressedRProcedure;
 import net.mcreator.ward.WardMod;
 
 import java.util.function.Supplier;
@@ -47,12 +46,14 @@ public class ReloadMessage {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		// security measure to prevent arbitrary chunk generation
+
+		// Security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(entity.blockPosition()))
 			return;
-		if (type == 0) {
 
-			MatterBulletProjectileHitsLivingEntityProcedure.execute(entity);
+		// Check if the message type matches and call the procedure
+		if (type == 0) {
+			ReloadOnKeyPressedRProcedure.execute(world, x, y, z, entity); // Pass the required arguments
 		}
 	}
 

@@ -1,16 +1,19 @@
 package net.mcreator.ward.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
 public class NickTheClownProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "Kill @e");
+	public static void execute(Entity entity) {
+		if (entity == null)
+			return;
+		if (entity instanceof Player _player) {
+			// Grant flight ability
+			_player.getAbilities().mayfly = true;
+			_player.onUpdateAbilities();
+			
+			// Prevent fall damage by setting fall distance to 0
+			_player.fallDistance = 0.0F;
+		}
 	}
 }

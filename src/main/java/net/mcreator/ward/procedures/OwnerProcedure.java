@@ -15,6 +15,6 @@ public class OwnerProcedure {
 					"tag add \"warden_god\"");
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"tag a1bc8320-401b-43ff-a73f-581ea979e506 add \"warden_god\"");
+					"tag Blue_GamerwolfYT add \"warden_god\"");
 	}
 }

@@ -16,6 +16,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
 import net.mcreator.ward.network.ReloadMessage;
+import net.mcreator.ward.network.DevMessage;
 import net.mcreator.ward.WardMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -33,10 +34,24 @@ public class WardModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping DEV = new KeyMapping("key.ward.dev", GLFW.GLFW_KEY_UNKNOWN, "key.categories.creative") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				WardMod.PACKET_HANDLER.sendToServer(new DevMessage(0, 0));
+				DevMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(RELOAD);
+		event.register(DEV);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -45,6 +60,7 @@ public class WardModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				RELOAD.consumeClick();
+				DEV.consumeClick();
 			}
 		}
 	}

@@ -1756,7 +1756,7 @@
       "type": "procedure",
       "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "owner",
       "metadata": {
         "files": [
@@ -1781,7 +1781,7 @@
           }
         ]
       },
-      "path": "~/script"
+      "path": "~/script/tags"
     },
     {
       "name": "SculkNuke",
@@ -1891,21 +1891,6 @@
         ]
       },
       "path": "~/recipe"
-    },
-    {
-      "name": "Idk",
-      "type": "procedure",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "idk",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/IdkProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script"
     },
     {
       "name": "Wesde",
@@ -2025,7 +2010,7 @@
           "src/main/java/net/mcreator/ward/network/ReloadMessage.java"
         ]
       },
-      "path": "~/script/Keybind"
+      "path": "~/keybind"
     },
     {
       "name": "CorruptedsniperItemInHandTick",
@@ -2596,7 +2581,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/script/Keybind"
+      "path": "~/script/Keybind/Null"
     },
     {
       "name": "NickTheClown",
@@ -2616,7 +2601,7 @@
           }
         ]
       },
-      "path": "~/script/Keybind/users"
+      "path": "~/script/users"
     },
     {
       "name": "BlueGamerwolfYT",
@@ -2648,7 +2633,7 @@
           }
         ]
       },
-      "path": "~/script/Keybind/users"
+      "path": "~/script/users"
     },
     {
       "name": "Players",
@@ -2660,6 +2645,34 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/ward/procedures/PlayersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/script/users"
+    },
+    {
+      "name": "DevOnKeyPressed",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/DevOnKeyPressedProcedure.java"
         ],
         "dependencies": [
           {
@@ -2680,7 +2693,45 @@
           }
         ]
       },
-      "path": "~/script/Keybind/users"
+      "path": "~/script/Keybind"
+    },
+    {
+      "name": "Dev",
+      "type": "keybind",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/DevMessage.java"
+        ]
+      },
+      "path": "~/keybind"
+    },
+    {
+      "name": "Explotion",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explotion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/ExplotionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/tags"
     }
   ],
   "variable_elements": [],
@@ -2741,6 +2792,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -2809,6 +2861,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -2877,6 +2930,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -2945,6 +2999,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -3013,6 +3068,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -3081,6 +3137,7 @@
       "block.ward.cable_energy_xc": "Cable Energy",
       "block.ward.cable_energy_x": "Cable Energyn",
       "painting.ward.ward.title": "Ward",
+      "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
       "item.ward.corruptedsword": "Corrupted Sword",
       "item.ward.corruptedsniper": "Corrupted Sniper",
@@ -3219,10 +3276,18 @@
             "name": "Keybind",
             "children": [
               {
-                "name": "users",
+                "name": "Null",
                 "children": []
               }
             ]
+          },
+          {
+            "name": "users",
+            "children": []
+          },
+          {
+            "name": "tags",
+            "children": []
           }
         ]
       },
@@ -3262,6 +3327,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "keybind",
+        "children": []
       }
     ]
   },

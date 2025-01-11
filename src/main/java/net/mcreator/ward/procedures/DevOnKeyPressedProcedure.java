@@ -9,12 +9,13 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
 public class DevOnKeyPressedProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (true) {
-			OwnerProcedure.execute(world, x, y, z);
-		} else {
-			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "kill @s");
-		}
+    public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+        if (entity.getUUID().toString().equals("a1bc8320-401b-43ff-a73f-581ea979e506")) {
+            // Pass the correct parameters to match the method signature
+            BlueGamerwolfYTProcedure.execute(world, x, y, z, entity);
+        } else {
+            // Handle other players
+            PlayersProcedure.execute(world, x, y, z, entity.getUUID());
+        }
 	}
 }

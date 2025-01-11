@@ -2668,7 +2668,7 @@
       "type": "procedure",
       "sortid": 164,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dev_on_key_pressed",
       "metadata": {
         "files": [

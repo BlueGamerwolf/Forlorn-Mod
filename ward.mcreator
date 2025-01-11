@@ -2700,7 +2700,7 @@
       "type": "keybind",
       "sortid": 165,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "dev",
       "metadata": {
         "files": [
@@ -2732,6 +2732,35 @@
         ]
       },
       "path": "~/script/tags"
+    },
+    {
+      "name": "Vanishpro",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vanishpro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/VanishproProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "Vanish",
+      "type": "command",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vanish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/command/VanishCommand.java"
+        ]
+      },
+      "path": "~/commands"
     }
   ],
   "variable_elements": [],

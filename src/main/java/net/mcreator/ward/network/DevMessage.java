@@ -1,4 +1,3 @@
-
 package net.mcreator.ward.network;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -17,47 +16,50 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DevMessage {
-	int type, pressedms;
+    int type, pressedms;
 
-	public DevMessage(int type, int pressedms) {
-		this.type = type;
-		this.pressedms = pressedms;
-	}
+    public DevMessage(int type, int pressedms) {
+        this.type = type;
+        this.pressedms = pressedms;
+    }
 
-	public DevMessage(FriendlyByteBuf buffer) {
-		this.type = buffer.readInt();
-		this.pressedms = buffer.readInt();
-	}
+    public DevMessage(FriendlyByteBuf buffer) {
+        this.type = buffer.readInt();
+        this.pressedms = buffer.readInt();
+    }
 
-	public static void buffer(DevMessage message, FriendlyByteBuf buffer) {
-		buffer.writeInt(message.type);
-		buffer.writeInt(message.pressedms);
-	}
+    public static void buffer(DevMessage message, FriendlyByteBuf buffer) {
+        buffer.writeInt(message.type);
+        buffer.writeInt(message.pressedms);
+    }
 
-	public static void handler(DevMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
-		NetworkEvent.Context context = contextSupplier.get();
-		context.enqueueWork(() -> {
-			pressAction(context.getSender(), message.type, message.pressedms);
-		});
-		context.setPacketHandled(true);
-	}
+    public static void handler(DevMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+        NetworkEvent.Context context = contextSupplier.get();
+        context.enqueueWork(() -> {
+            pressAction(context.getSender(), message.type, message.pressedms);
+        });
+        context.setPacketHandled(true);
+    }
 
-	public static void pressAction(Player entity, int type, int pressedms) {
-		Level world = entity.level();
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-		// security measure to prevent arbitrary chunk generation
-		if (!world.hasChunkAt(entity.blockPosition()))
-			return;
-		if (type == 0) {
+    public static void pressAction(Player entity, int type, int pressedms) {
+        Level world = entity.level();
+        double x = entity.getX();
+        double y = entity.getY();
+        double z = entity.getZ();
 
-			DevOnKeyPressedProcedure.execute(world, x, y, z);
-		}
-	}
+        // security measure to prevent arbitrary chunk generation
+        if (!world.hasChunkAt(entity.blockPosition())) {
+            return;
+        }
 
-	@SubscribeEvent
-	public static void registerMessage(FMLCommonSetupEvent event) {
-		WardMod.addNetworkMessage(DevMessage.class, DevMessage::buffer, DevMessage::new, DevMessage::handler);
-	}
+        if (type == 0) {
+            // Pass the entity (Player) as the fifth argument to DevOnKeyPressedProcedure
+            DevOnKeyPressedProcedure.execute(world, x, y, z, entity);
+        }
+    }
+
+    @SubscribeEvent
+    public static void registerMessage(FMLCommonSetupEvent event) {
+        WardMod.addNetworkMessage(DevMessage.class, DevMessage::buffer, DevMessage::new, DevMessage::handler);
+    }
 }

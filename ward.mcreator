@@ -2761,6 +2761,36 @@
         ]
       },
       "path": "~/commands"
+    },
+    {
+      "name": "Rage",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/RageProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users"
+    },
+    {
+      "name": "Nick",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/NickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users"
     }
   ],
   "variable_elements": [],

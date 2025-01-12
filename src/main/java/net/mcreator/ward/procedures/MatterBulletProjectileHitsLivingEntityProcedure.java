@@ -36,7 +36,7 @@ public class MatterBulletProjectileHitsLivingEntityProcedure {
 					}
 				}.getArrow(projectileLevel, entity, 1000000, 0, (byte) 0);
 				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 10000, 1);
+				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 2000, 1); // Increased speed from 1000 to 2000
 				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 		}

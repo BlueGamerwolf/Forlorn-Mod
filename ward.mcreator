@@ -2601,7 +2601,7 @@
           }
         ]
       },
-      "path": "~/script/users"
+      "path": "~/script/users/Josh"
     },
     {
       "name": "Players",
@@ -2968,6 +2968,57 @@
         "dependencies": []
       },
       "path": "~/script/Keybind"
+    },
+    {
+      "name": "Kill",
+      "type": "gui",
+      "sortid": 185,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "kill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/world/inventory/KillMenu.java",
+          "src/main/java/net/mcreator/ward/client/gui/KillScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Snap",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "snap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/SnapProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/users/Josh"
     }
   ],
   "variable_elements": [],
@@ -3534,6 +3585,10 @@
             "children": [
               {
                 "name": "Hael",
+                "children": []
+              },
+              {
+                "name": "Josh",
                 "children": []
               }
             ]

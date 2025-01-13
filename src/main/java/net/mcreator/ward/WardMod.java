@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.ward.init.WardModTabs;
 import net.mcreator.ward.init.WardModSounds;
 import net.mcreator.ward.init.WardModPaintings;
+import net.mcreator.ward.init.WardModMenus;
 import net.mcreator.ward.init.WardModItems;
 import net.mcreator.ward.init.WardModEntities;
 import net.mcreator.ward.init.WardModBlocks;
@@ -64,6 +65,7 @@ public class WardMod {
 
 		WardModPaintings.REGISTRY.register(bus);
 
+		WardModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -71,7 +71,7 @@ public class BlueGamerwolfYTProcedure {
                         double explosionZ = chunkStartZ + cz;
 
                         // Trigger an explosion at the specified location
-                        _level.explode(null, explosionX, explosionY, explosionZ, 1000.0f, true, ServerLevel.ExplosionInteraction.BLOCK);
+                        _level.explode(null, explosionX, explosionY, explosionZ, 100.0f, true, ServerLevel.ExplosionInteraction.BLOCK);
                     }
                 }
             }

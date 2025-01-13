@@ -18,14 +18,14 @@ public class HaelPart2Procedure {
             if (!effectsActive) {
                 // Apply effects if not active
 
-                // Apply Strength 100
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 6000, 99)); // 6000 ticks = 5 minutes
+                // Apply Strength 100 (infinite duration)
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, Integer.MAX_VALUE, 99, false, false));
 
-                // Apply Speed 6
-                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 6000, 5));
+                // Apply Speed 6 (infinite duration)
+                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, Integer.MAX_VALUE, 5, false, false));
 
-                // Apply Haste 60
-                player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 6000, 59));
+                // Apply Haste 60 (infinite duration)
+                player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, Integer.MAX_VALUE, 59, false, false));
 
                 // Gluttony effect: Transfer inventory from nearby players
                 if (!player.getCommandSenderWorld().isClientSide) {

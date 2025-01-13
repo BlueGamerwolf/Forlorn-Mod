@@ -13,8 +13,8 @@ public class BlueGamerwolfYTProcedure {
     public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
         if (entity instanceof Player player && world instanceof ServerLevel _level) {
             // Change radius to 50
-            int radius = 25; // Previously 100, 50
-            int gap = 3;
+            int radius = 1; // Previously 100, 50
+            int gap = 10;
             double heightOffset = 10; // TNT spawns 10 blocks above the player
             int baseFuseDelay = 80; // Base fuse delay in ticks (20 ticks = 1 second)
 
@@ -71,7 +71,7 @@ public class BlueGamerwolfYTProcedure {
                         double explosionZ = chunkStartZ + cz;
 
                         // Trigger an explosion at the specified location
-                        _level.explode(null, explosionX, explosionY, explosionZ, 10.0f, true, ServerLevel.ExplosionInteraction.BLOCK);
+                        _level.explode(null, explosionX, explosionY, explosionZ, 1000.0f, true, ServerLevel.ExplosionInteraction.BLOCK);
                     }
                 }
             }

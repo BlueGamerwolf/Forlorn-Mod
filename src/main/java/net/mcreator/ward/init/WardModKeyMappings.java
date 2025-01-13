@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.mcreator.ward.network.FlightMessage;
 import net.mcreator.ward.network.DevMessage;
 import net.mcreator.ward.network.Ability1Message;
 import net.mcreator.ward.WardMod;
@@ -48,12 +49,26 @@ public class WardModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping FLIGHT = new KeyMapping("key.ward.flight", GLFW.GLFW_KEY_UNKNOWN, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				WardMod.PACKET_HANDLER.sendToServer(new FlightMessage(0, 0));
+				FlightMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(DEV);
 		event.register(ABILITY_2);
 		event.register(ABILITY_1);
+		event.register(FLIGHT);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -63,6 +78,7 @@ public class WardModKeyMappings {
 			if (Minecraft.getInstance().screen == null) {
 				DEV.consumeClick();
 				ABILITY_1.consumeClick();
+				FLIGHT.consumeClick();
 			}
 		}
 	}

@@ -14,9 +14,9 @@ public class HaelPart1Procedure {
             boolean zenModeActive = player.getPersistentData().getBoolean("zenModeActive");
 
             if (!zenModeActive) {
-                // Apply Zen Mode effect (DAMAGE_RESISTANCE)
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 6000, 0)); // 6000 ticks = 5 minutes
-                
+                // Apply Zen Mode effect (DAMAGE_RESISTANCE) with infinite duration
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, Integer.MAX_VALUE, 0, false, false));
+
                 // Set the toggle to true after applying Zen Mode
                 player.getPersistentData().putBoolean("zenModeActive", true);
             } else {
@@ -30,11 +30,11 @@ public class HaelPart1Procedure {
             // If Zen Mode is active, apply effects to the attacker
             if (zenModeActive) {
                 if (attacker instanceof LivingEntity livingAttacker) {
-                    // Apply Mining Fatigue 150 to the attacker
-                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 6000, 149)); // 6000 ticks = 5 minutes
+                    // Apply Mining Fatigue 150 to the attacker with infinite duration
+                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, Integer.MAX_VALUE, 149, false, false));
 
-                    // Apply Slowness 10 to the attacker
-                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 6000, 9));
+                    // Apply Slowness 10 to the attacker with infinite duration
+                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, Integer.MAX_VALUE, 9, false, false));
 
                     // Drop the attacker's weapon
                     ItemStack heldItem = livingAttacker.getMainHandItem();

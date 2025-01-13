@@ -2498,9 +2498,6 @@
       "locked_code": false,
       "registry_name": "bluegamerwolf_on_initial_entity_spawn",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/BluegamerwolfOnInitialEntitySpawnProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "x",
@@ -2823,7 +2820,7 @@
           }
         ]
       },
-      "path": "~/script/users"
+      "path": "~/script"
     },
     {
       "name": "HaelPart1",
@@ -2927,6 +2924,50 @@
         "dependencies": []
       },
       "path": "~/script/users"
+    },
+    {
+      "name": "FlightOnKeyPressed",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flight_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/FlightOnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/Keybind"
+    },
+    {
+      "name": "Flight",
+      "type": "keybind",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/FlightMessage.java"
+        ]
+      },
+      "path": "~/keybind"
+    },
+    {
+      "name": "Music",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "music",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/MusicProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/Keybind"
     }
   ],
   "variable_elements": [],
@@ -2953,6 +2994,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",
@@ -3023,6 +3065,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",
@@ -3093,6 +3136,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",
@@ -3163,6 +3207,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",
@@ -3233,6 +3278,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",
@@ -3303,6 +3349,7 @@
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
       "block.ward.cable_energy_txc": "Cable Energyn",
+      "key.ward.flight": "Flight",
       "item.ward.devine_blade": "Devine Blade",
       "item.ward.commandset_helmet": "Commandset Helmet",
       "painting.ward.ward.author": "Blue_GamerwolfYT",

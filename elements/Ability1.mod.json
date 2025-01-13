@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "B",
+    "keyBindingName": "Ability 1",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Abiltiy1OnKeyPressed"
+    }
+  }
+}

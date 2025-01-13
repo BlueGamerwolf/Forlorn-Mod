@@ -9,12 +9,12 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-public class BlueGamerwolfYTProcedure {
+public class LuckynukeProcedure {
     public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
         if (entity instanceof Player player && world instanceof ServerLevel _level) {
             // Change radius to 50
-            int radius = 25; // Previously 100, 50
-            int gap = 3;
+            int radius = 100; // Previously 100, 50
+            int gap = 5;
             double heightOffset = 10; // TNT spawns 10 blocks above the player
             int baseFuseDelay = 80; // Base fuse delay in ticks (20 ticks = 1 second)
 

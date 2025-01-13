@@ -15,25 +15,12 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
-import net.mcreator.ward.network.ReloadMessage;
 import net.mcreator.ward.network.DevMessage;
+import net.mcreator.ward.network.Ability1Message;
 import net.mcreator.ward.WardMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class WardModKeyMappings {
-	public static final KeyMapping RELOAD = new KeyMapping("key.ward.reload", GLFW.GLFW_KEY_UNKNOWN, "key.categories.creative") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				WardMod.PACKET_HANDLER.sendToServer(new ReloadMessage(0, 0));
-				ReloadMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 	public static final KeyMapping DEV = new KeyMapping("key.ward.dev", GLFW.GLFW_KEY_UNKNOWN, "key.categories.creative") {
 		private boolean isDownOld = false;
 
@@ -47,11 +34,26 @@ public class WardModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping ABILITY_2 = new KeyMapping("key.ward.ability_2", GLFW.GLFW_KEY_N, "key.categories.misc");
+	public static final KeyMapping ABILITY_1 = new KeyMapping("key.ward.ability_1", GLFW.GLFW_KEY_B, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				WardMod.PACKET_HANDLER.sendToServer(new Ability1Message(0, 0));
+				Ability1Message.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
-		event.register(RELOAD);
 		event.register(DEV);
+		event.register(ABILITY_2);
+		event.register(ABILITY_1);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -59,8 +61,8 @@ public class WardModKeyMappings {
 		@SubscribeEvent
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
-				RELOAD.consumeClick();
 				DEV.consumeClick();
+				ABILITY_1.consumeClick();
 			}
 		}
 	}

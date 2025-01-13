@@ -1679,7 +1679,7 @@
       "type": "block",
       "sortid": 106,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "lucky",
       "metadata": {
         "files": [
@@ -1997,20 +1997,6 @@
         ]
       },
       "path": "~/items/weapons"
-    },
-    {
-      "name": "Reload",
-      "type": "keybind",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "reload",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/network/ReloadMessage.java"
-        ]
-      },
-      "path": "~/keybind"
     },
     {
       "name": "CorruptedsniperItemInHandTick",
@@ -2569,21 +2555,6 @@
       "path": "~/script"
     },
     {
-      "name": "ReloadOnKeyPressedR",
-      "type": "procedure",
-      "sortid": 160,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "reload_on_key_pressed_r",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/ReloadOnKeyPressedRProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script/Keybind/Null"
-    },
-    {
       "name": "NickTheClown",
       "type": "procedure",
       "sortid": 161,
@@ -2791,6 +2762,171 @@
         "dependencies": []
       },
       "path": "~/script/users"
+    },
+    {
+      "name": "Sam",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/SamProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users"
+    },
+    {
+      "name": "LuckyOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lucky_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/LuckyOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/items/blocks"
+    },
+    {
+      "name": "Luckynuke",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "luckynuke",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/LuckynukeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/script/users"
+    },
+    {
+      "name": "HaelPart1",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hael_part_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/HaelPart1Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users/Hael"
+    },
+    {
+      "name": "HaelPart2",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hael_part_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/HaelPart2Procedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users/Hael"
+    },
+    {
+      "name": "Ability2",
+      "type": "keybind",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ability_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/Ability2Message.java"
+        ]
+      },
+      "path": "~/keybind"
+    },
+    {
+      "name": "Abiltiy1OnKeyPressed",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "abilty_1_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/Abiltiy1OnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/Keybind/Abilitys"
+    },
+    {
+      "name": "Ability2OnKeyPressed",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ability_2_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/Ability2OnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/Keybind/Abilitys"
+    },
+    {
+      "name": "Ability1",
+      "type": "keybind",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ability_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/Ability1Message.java"
+        ]
+      },
+      "path": "~/keybind"
+    },
+    {
+      "name": "IfzenModeActive",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ifzen_mode_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/IfzenModeActiveProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script/users"
     }
   ],
   "variable_elements": [],
@@ -2836,6 +2972,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Basic Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -2865,7 +3003,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -2905,6 +3042,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -2934,7 +3073,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -2974,6 +3112,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -3003,7 +3143,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -3043,6 +3182,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -3072,7 +3213,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -3112,6 +3252,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -3141,7 +3283,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -3181,6 +3322,8 @@
       "item.ward.corruptedarmor_leggings": "Corrupted Leggings",
       "block.ward.cable_energy_lc": "Energy Cable",
       "block.ward.cable_energy_f": "Cable Energyn",
+      "key.ward.ability_1": "Ability 1",
+      "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
@@ -3210,7 +3353,6 @@
       "block.ward.lucky": "Lucky",
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
-      "key.ward.reload": "Reload",
       "block.ward.cable_energy_lt": "Energy Cable",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
@@ -3335,14 +3477,19 @@
             "name": "Keybind",
             "children": [
               {
-                "name": "Null",
+                "name": "Abilitys",
                 "children": []
               }
             ]
           },
           {
             "name": "users",
-            "children": []
+            "children": [
+              {
+                "name": "Hael",
+                "children": []
+              }
+            ]
           },
           {
             "name": "tags",

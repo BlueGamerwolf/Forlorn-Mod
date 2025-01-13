@@ -123,11 +123,11 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "Luckyblock"
+    "onRightClicked": {
+      "name": "LuckyOnBlockRightClicked"
     },
-    "onDestroyedByExplosion": {
-      "name": "Luckyblock"
+    "onRedstoneOn": {
+      "name": "BlueGamerwolfYT"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

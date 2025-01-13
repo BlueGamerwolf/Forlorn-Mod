@@ -4,7 +4,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.LevelAccessor;
 
-public class ReloadOnKeyPressedRProcedure {
+public class Abiltiy1OnKeyPressedProcedure {
+
     public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
         if (entity.getUUID().toString().equals("a1bc8320-401b-43ff-a73f-581ea979e506")) {
             // Pass the correct parameters to match the method signature
@@ -16,9 +17,12 @@ public class ReloadOnKeyPressedRProcedure {
             RageProcedure.toggleRage(entity); // Updated method call
         } else if (entity.getUUID().toString().equals("27293c84-e600-4290-8aae-348490503253")) {
             // Check if the entity is a Player
-            if (entity instanceof Player player) {
-                NickProcedure.execute(player); // Pass the Player instance
+            if (entity instanceof Player) {
+                NickProcedure.execute((Player) entity); // Cast entity to Player
             }
+        } else if (entity.getUUID().toString().equals("fc616e06-fa9a-4431-845d-a1c892ce1f93")) {
+            // Execute HaelPart1Procedure when the UUID matches
+            HaelPart1Procedure.execute(entity, entity); // Pass the entity twice as required by the method
         } else {
             // Handle other players
             PlayersProcedure.execute(world, x, y, z, entity.getUUID());

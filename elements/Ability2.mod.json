@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "Ability 2",
+    "keyBindingCategoryKey": "misc"
+  }
+}

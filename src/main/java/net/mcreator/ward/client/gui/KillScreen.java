@@ -1,11 +1,11 @@
 package net.mcreator.ward.client.gui;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.server.level.ServerPlayer; // Added import for ServerPlayer
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
@@ -14,7 +14,6 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.ward.procedures.SnapProcedure; // Import the SnapProcedure class
 import net.minecraft.client.gui.narration.NarrationElementOutput;
 import net.minecraft.client.gui.narration.NarratedElementType;
-
 
 import net.mcreator.ward.world.inventory.KillMenu;
 
@@ -69,8 +68,8 @@ public class KillScreen extends AbstractContainerScreen<KillMenu> {
             this.minecraft.player.closeContainer();
 
             // Kill the selected player after closing the menu
-            if (selectedPlayer != null) {
-                SnapProcedure.execute(this.world, (ServerPlayer) selectedPlayer);
+            if (selectedPlayer != null && selectedPlayer instanceof ServerPlayer serverPlayer) {
+                SnapProcedure.execute(serverPlayer); // Adjusted to pass a ServerPlayer
             }
             return true;
         }

@@ -27,21 +27,19 @@ public class HaelPart1Procedure {
                 player.getPersistentData().putBoolean("zenModeActive", false);
             }
 
-            // If Zen Mode is active, apply effects to the attacker
-            if (zenModeActive) {
-                if (attacker instanceof LivingEntity livingAttacker) {
-                    // Apply Mining Fatigue 150 to the attacker with infinite duration
-                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, Integer.MAX_VALUE, 149, false, false));
+            // If Zen Mode is active, apply effects ONLY to the attacking player
+            if (zenModeActive && attacker instanceof Player attackingPlayer) {
+                // Apply Mining Fatigue 150 to the attacker with infinite duration
+                attackingPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, Integer.MAX_VALUE, 149, false, false));
 
-                    // Apply Slowness 10 to the attacker with infinite duration
-                    livingAttacker.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, Integer.MAX_VALUE, 9, false, false));
+                // Apply Slowness 10 to the attacker with infinite duration
+                attackingPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, Integer.MAX_VALUE, 9, false, false));
 
-                    // Drop the attacker's weapon
-                    ItemStack heldItem = livingAttacker.getMainHandItem();
-                    if (!heldItem.isEmpty()) {
-                        livingAttacker.spawnAtLocation(heldItem);
-                        livingAttacker.setItemInHand(livingAttacker.getUsedItemHand(), ItemStack.EMPTY);
-                    }
+                // Drop the attacker's weapon
+                ItemStack heldItem = attackingPlayer.getMainHandItem();
+                if (!heldItem.isEmpty()) {
+                    attackingPlayer.spawnAtLocation(heldItem);
+                    attackingPlayer.setItemInHand(attackingPlayer.getUsedItemHand(), ItemStack.EMPTY);
                 }
             }
         }

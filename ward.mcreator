@@ -2973,7 +2973,7 @@
       "name": "Kill",
       "type": "gui",
       "sortid": 185,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "kill",
       "metadata": {
@@ -2988,7 +2988,7 @@
       "name": "Snap",
       "type": "procedure",
       "sortid": 186,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "snap",
       "metadata": {

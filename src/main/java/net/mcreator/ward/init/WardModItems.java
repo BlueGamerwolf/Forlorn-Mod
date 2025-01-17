@@ -101,6 +101,7 @@ public class WardModItems {
 	public static final RegistryObject<Item> NETHERLINE_BLADE = REGISTRY.register("netherline_blade", () -> new NetherlineBladeItem());
 	public static final RegistryObject<Item> ENDERLINE_BLADE = REGISTRY.register("enderline_blade", () -> new EnderlineBladeItem());
 	public static final RegistryObject<Item> HUMAN_BLADE = REGISTRY.register("human_blade", () -> new HumanBladeItem());
+	public static final RegistryObject<Item> DARKNESS_LUCKY_BLOCK = block(WardModBlocks.DARKNESS_LUCKY_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

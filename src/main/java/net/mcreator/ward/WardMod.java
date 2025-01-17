@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.ward.init.WardModVillagerProfessions;
 import net.mcreator.ward.init.WardModTabs;
 import net.mcreator.ward.init.WardModSounds;
 import net.mcreator.ward.init.WardModPaintings;
@@ -65,6 +66,7 @@ public class WardMod {
 
 		WardModPaintings.REGISTRY.register(bus);
 
+		WardModVillagerProfessions.PROFESSIONS.register(bus);
 		WardModMenus.REGISTRY.register(bus);
 	}
 

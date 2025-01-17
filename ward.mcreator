@@ -1710,7 +1710,7 @@
       "type": "procedure",
       "sortid": 108,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "luckyblock",
       "metadata": {
         "files": [
@@ -1735,7 +1735,7 @@
           }
         ]
       },
-      "path": "~/script"
+      "path": "~/script/Block/Lucky"
     },
     {
       "name": "LuckyBlockRecipe",
@@ -1866,7 +1866,7 @@
       "type": "livingentity",
       "sortid": 115,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "death",
       "metadata": {
         "files": [
@@ -2174,7 +2174,7 @@
       "type": "livingentity",
       "sortid": 135,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "bluegamerwolf",
       "metadata": {
         "files": [
@@ -2788,7 +2788,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/items/blocks"
+      "path": "~/script/Block/Lucky"
     },
     {
       "name": "Luckynuke",
@@ -2820,7 +2820,7 @@
           }
         ]
       },
-      "path": "~/script"
+      "path": "~/script/Block/Lucky"
     },
     {
       "name": "HaelPart1",
@@ -3019,6 +3019,47 @@
         ]
       },
       "path": "~/script/users/Josh"
+    },
+    {
+      "name": "DarknessLuckyBlock",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/block/DarknessLuckyBlockBlock.java",
+          "src/main/resources/assets/ward/models/item/darkness_lucky_block.json",
+          "src/main/resources/assets/ward/models/block/darkness_lucky_block.json",
+          "src/main/resources/assets/ward/blockstates/darkness_lucky_block.json"
+        ]
+      },
+      "path": "~/items/blocks"
+    },
+    {
+      "name": "DarknessTrader",
+      "type": "villagerprofession",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_trader",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager"
+    },
+    {
+      "name": "DarknessTrades",
+      "type": "villagertrade",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_trades",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager"
     }
   ],
   "variable_elements": [],
@@ -3039,6 +3080,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3077,6 +3119,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3084,10 +3127,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3097,6 +3146,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3110,6 +3160,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3148,6 +3199,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3155,10 +3207,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3168,6 +3226,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3181,6 +3240,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3219,6 +3279,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3226,10 +3287,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3239,6 +3306,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3252,6 +3320,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3290,6 +3359,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3297,10 +3367,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3310,6 +3386,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3323,6 +3400,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3361,6 +3439,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3368,10 +3447,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3381,6 +3466,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3394,6 +3480,7 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "entity.ward.death": "Death",
@@ -3432,6 +3519,7 @@
       "block.ward.cable_energy_s": "Cable Energyn",
       "item.ward.mattermulipulator": "Matter Mulipulator",
       "item.ward.corruptedlong_sword": "Corrupted long Sword",
+      "block.ward.darkness_lucky_block": "Darkness Lucky Block",
       "block.ward.cable_energy_t": "Energy Cable",
       "subtitles.warden_end_fight": "The Final Fight",
       "block.ward.cable_energy_xc": "Cable Energy",
@@ -3439,10 +3527,16 @@
       "painting.ward.ward.title": "Ward",
       "key.ward.dev": "Dev",
       "item.ward.corruptedarmor_helmet": "Corrupted Helmet",
+      "gui.ward.kill.button_empty4": "",
+      "gui.ward.kill.button_empty3": "",
+      "gui.ward.kill.button_empty2": "",
       "item.ward.corruptedsword": "Corrupted Sword",
+      "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
+      "entity.minecraft.villager.ward.darkness_trader": "Darkness Trader",
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
@@ -3452,6 +3546,7 @@
       "item.ward.blossom_scythe": "Blossom Scythe",
       "item.ward.commandingot": "Command Ingot",
       "block.ward.cable_energy_lt": "Energy Cable",
+      "gui.ward.kill.button_empty": "",
       "item.ward.end_game_fight": "End Game Fight",
       "item.ward.command_hoe": "Command Hoe",
       "item.ward.corruptedarmor_boots": "Corrupted Boots",
@@ -3596,6 +3691,15 @@
           {
             "name": "tags",
             "children": []
+          },
+          {
+            "name": "Block",
+            "children": [
+              {
+                "name": "Lucky",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -3638,6 +3742,10 @@
       },
       {
         "name": "keybind",
+        "children": []
+      },
+      {
+        "name": "villager",
         "children": []
       }
     ]

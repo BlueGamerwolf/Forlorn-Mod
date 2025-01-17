@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.ward.block.SculkNukeBlock;
 import net.mcreator.ward.block.LuckyBlock;
+import net.mcreator.ward.block.DarknessLuckyBlockBlock;
 import net.mcreator.ward.block.CommandoreBlock;
 import net.mcreator.ward.block.CableEnergyXCBlock;
 import net.mcreator.ward.block.CableEnergyXBlock;
@@ -54,4 +55,5 @@ public class WardModBlocks {
 	public static final RegistryObject<Block> LUCKY = REGISTRY.register("lucky", () -> new LuckyBlock());
 	public static final RegistryObject<Block> SCULK_NUKE = REGISTRY.register("sculk_nuke", () -> new SculkNukeBlock());
 	public static final RegistryObject<Block> COMMANDORE = REGISTRY.register("commandore", () -> new CommandoreBlock());
+	public static final RegistryObject<Block> DARKNESS_LUCKY_BLOCK = REGISTRY.register("darkness_lucky_block", () -> new DarknessLuckyBlockBlock());
 }

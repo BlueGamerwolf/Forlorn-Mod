@@ -45,6 +45,7 @@ public class WardModTabs {
 				tabData.accept(WardModBlocks.LUCKY.get().asItem());
 				tabData.accept(WardModBlocks.SCULK_NUKE.get().asItem());
 				tabData.accept(WardModItems.WARDEN.get());
+				tabData.accept(WardModBlocks.DARKNESS_LUCKY_BLOCK.get().asItem());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> COMMAND = REGISTRY.register("command",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ward.command")).icon(() -> new ItemStack(WardModItems.COMMANDINGOT.get())).displayItems((parameters, tabData) -> {

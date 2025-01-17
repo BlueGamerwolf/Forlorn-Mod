@@ -4,12 +4,100 @@
   "definition": {
     "type": 0,
     "width": 176,
-    "height": 166,
+    "height": 167,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
-    "components": [],
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 149,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 225,
+          "y": 65
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 149,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 225,
+          "y": 108
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 149,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty5",
+          "text": "",
+          "isUndecorated": false,
+          "width": 25,
+          "height": 20,
+          "x": 225,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_a_player",
+          "text": {
+            "fixedValue": "Select a Player"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 173,
+          "y": 43
+        }
+      }
+    ],
     "gridSettings": {
       "sx": 18,
       "sy": 18,

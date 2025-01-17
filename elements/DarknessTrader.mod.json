@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Darkness Trader",
+    "pointOfInterest": {
+      "value": "Blocks.SCULK_CATALYST"
+    },
+    "actionSound": {
+      "value": "block.sculk_sensor.clicking"
+    },
+    "hat": "None",
+    "professionTextureFile": "villager.png",
+    "zombifiedProfessionTextureFile": "zombie_villager.png"
+  }
+}

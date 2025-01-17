@@ -1,0 +1,213 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:DarknessTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.SCULK"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.AMETHYST_SHARD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Commandore"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1000,
+            "xp": 5,
+            "priceMultiplier": 0.0
+          },
+          {
+            "price1": {
+              "value": "Blocks.CORNFLOWER"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": "Items.DYE#18"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MatterBall"
+            },
+            "countOffer": 32,
+            "level": 1,
+            "maxTrades": 1000,
+            "xp": 5,
+            "priceMultiplier": 0.0
+          },
+          {
+            "price1": {
+              "value": "Blocks.TNT"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.SCULK"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:SculkNuke"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 500,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.TNT"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 14,
+            "offer": {
+              "value": "CUSTOM:DarknessLuckyBlock"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10000,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:SculkNuke"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 36,
+            "offer": {
+              "value": "CUSTOM:Lucky"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10000,
+            "xp": 5,
+            "priceMultiplier": 0.09999999999999999
+          },
+          {
+            "price1": {
+              "value": "Items.KNOWLEDGE_BOOK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.AXOLOTL_BUCKET"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:HumanBlade"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.09999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:HumanBlade"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.NETHER_STAR"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NetherlineBlade"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.2
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NetherlineBlade"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Blocks.DRAGON_EGG"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:EnderlineBlade"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.2
+          },
+          {
+            "price1": {
+              "value": "Blocks.NETHERITE_BLOCK"
+            },
+            "countPrice1": 9,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 4,
+            "offer": {
+              "value": "CUSTOM:CorruptedIngot"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 64,
+            "xp": 10,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NetherlineBlade"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:CorruptedIngot"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CommandBlade"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.4
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Commandingot"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "CUSTOM:CommandBlade"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:CorruptedPickaxe"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 10000,
+            "priceMultiplier": 0.9
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -11,19 +11,17 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
-
 import net.mcreator.ward.init.WardModBlocks;
-
-import java.util.Random;
+import net.mcreator.ward.init.WardModEntities;
 
 public class LuckyblockProcedure {
     public static void execute(LevelAccessor world, double x, double y, double z) {
         double random = Math.random();
 
-        // Rare Chance: Black Spear with Button
-        if (random < 0.05) { // 5% chance for the spear event
-            buildBlackSpear(world, x, y, z);
-            return;
+        // 50% chance to spawn the Blue Gamerwolf entity
+        if (random < 0.5) {
+            spawnBlueGamerwolf(world, x, y, z);  // Spawn the ward:blue_gamerwolf entity
+            return;  // Exit the method if the entity is spawned
         }
 
         // Group 1: Item Spawns
@@ -45,27 +43,15 @@ public class LuckyblockProcedure {
         }
     }
 
-    private static void buildBlackSpear(LevelAccessor world, double x, double y, double z) {
-        // Build the black spear structure
-        for (int i = 0; i < 5; i++) {
-            world.setBlock(new BlockPos((int) x, (int) y + i, (int) z), Blocks.BLACKSTONE.defaultBlockState(), 3);
-        }
-        // Add a button in the middle
-        world.setBlock(new BlockPos((int) x, (int) y + 2, (int) z), Blocks.STONE_BUTTON.defaultBlockState(), 3);
-    }
-
-    public static void onButtonPress(LevelAccessor world, double x, double y, double z) {
+    // Method to spawn the ward:blue_gamerwolf entity
+    private static void spawnBlueGamerwolf(LevelAccessor world, double x, double y, double z) {
         if (world instanceof ServerLevel _level) {
-            // Spawn the entity
-            Entity entityToSpawn = EntityType.byString("ward:bluegamerwolf").orElse(null).create(_level);
+            Entity entityToSpawn = WardModEntities.BLUEGAMERWOLF.get().create(_level);  // Use your entity registry here
             if (entityToSpawn != null) {
-                entityToSpawn.moveTo(x + 0.5, y + 2, z + 0.5, world.getRandom().nextFloat() * 360F, 0);
+                entityToSpawn.moveTo(x + 0.5, y, z + 0.5, world.getRandom().nextFloat() * 360F, 0);
                 _level.addFreshEntity(entityToSpawn);
             }
         }
-
-        // Remove the button
-        world.setBlock(new BlockPos((int) x, (int) y + 2, (int) z), Blocks.AIR.defaultBlockState(), 3); // Remove button
     }
 
     private static void spawnItem(LevelAccessor world, double x, double y, double z, ItemStack item) {
@@ -104,7 +90,7 @@ public class LuckyblockProcedure {
         world.setBlock(new BlockPos((int) x, (int) y + 4, (int) z), Blocks.NETHERITE_BLOCK.defaultBlockState(), 3);
 
         if (world instanceof ServerLevel _level) {
-            Entity entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level); // Corrected lightning bolt entity creation
+            Entity entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
             if (entityToSpawn != null) {
                 entityToSpawn.moveTo(Vec3.atBottomCenterOf(new BlockPos((int) x, (int) y, (int) z)));
                 _level.addFreshEntity(entityToSpawn);

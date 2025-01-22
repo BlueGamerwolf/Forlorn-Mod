@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
         "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
         "value": "Blocks.STAINED_GLASS_PANE#3"
@@ -30,13 +30,13 @@
         "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       },
       {
         "value": "Blocks.STAINED_GLASS_PANE#3"
       },
       {
-        "value": "Items.EMERALD"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

@@ -29,17 +29,22 @@ public class HaelPart1Procedure {
 
             // If Zen Mode is active, apply effects ONLY to the attacking player
             if (zenModeActive && attacker instanceof Player attackingPlayer) {
-                // Apply Mining Fatigue 150 to the attacker with infinite duration
-                attackingPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, Integer.MAX_VALUE, 149, false, false));
+                // Check if the attacking player has Zen Mode active; don't apply negative effects to them
+                boolean attackingPlayerZenModeActive = attackingPlayer.getPersistentData().getBoolean("zenModeActive");
 
-                // Apply Slowness 10 to the attacker with infinite duration
-                attackingPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, Integer.MAX_VALUE, 9, false, false));
+                if (!attackingPlayerZenModeActive) {
+                    // Apply Mining Fatigue 150 to the attacker with infinite duration
+                    attackingPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, Integer.MAX_VALUE, 149, false, false));
 
-                // Drop the attacker's weapon
-                ItemStack heldItem = attackingPlayer.getMainHandItem();
-                if (!heldItem.isEmpty()) {
-                    attackingPlayer.spawnAtLocation(heldItem);
-                    attackingPlayer.setItemInHand(attackingPlayer.getUsedItemHand(), ItemStack.EMPTY);
+                    // Apply Slowness 10 to the attacker with infinite duration
+                    attackingPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, Integer.MAX_VALUE, 9, false, false));
+
+                    // Drop the attacker's weapon
+                    ItemStack heldItem = attackingPlayer.getMainHandItem();
+                    if (!heldItem.isEmpty()) {
+                        attackingPlayer.spawnAtLocation(heldItem);
+                        attackingPlayer.setItemInHand(attackingPlayer.getUsedItemHand(), ItemStack.EMPTY);
+                    }
                 }
             }
         }

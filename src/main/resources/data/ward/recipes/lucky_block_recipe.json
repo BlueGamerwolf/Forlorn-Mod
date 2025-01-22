@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
+    " a ",
     "aba",
-    "bcb",
-    "aba"
+    " a "
   ],
   "key": {
     "a": {
-      "item": "minecraft:emerald"
-    },
-    "b": {
       "item": "minecraft:light_blue_stained_glass_pane"
     },
-    "c": {
+    "b": {
       "item": "ward:cable_energy_n"
     }
   },

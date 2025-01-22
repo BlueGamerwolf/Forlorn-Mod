@@ -7,5 +7,29 @@
         "stream": true
       }
     ]
+  },
+  "status_yukki": {
+    "sounds": [
+      {
+        "name": "ward:status__yukki.char",
+        "stream": false
+      }
+    ]
+  },
+  "chaotic_interference": {
+    "sounds": [
+      {
+        "name": "ward:2024_chaotic_interference",
+        "stream": false
+      }
+    ]
+  },
+  "some_hope.botd": {
+    "sounds": [
+      {
+        "name": "ward:some_hope._botd_3",
+        "stream": false
+      }
+    ]
   }
 }

@@ -2,18 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    "aaa",
-    "bcb",
-    "aaa"
+    "aba"
   ],
   "key": {
     "a": {
-      "tag": "minecraft:wool"
+      "tag": "minecraft:small_flowers"
     },
     "b": {
-      "item": "minecraft:string"
-    },
-    "c": {
       "item": "minecraft:copper_ingot"
     }
   },

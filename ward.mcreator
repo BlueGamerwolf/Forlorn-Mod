@@ -3060,6 +3060,20 @@
         "files": []
       },
       "path": "~/villager"
+    },
+    {
+      "name": "DarknessBlock",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkness_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ward/recipes/darkness_block.json"
+        ]
+      },
+      "path": "~/recipe/blocks"
     }
   ],
   "variable_elements": [],
@@ -3071,6 +3085,30 @@
       ],
       "category": "music",
       "subtitle": "The Final Fight"
+    },
+    {
+      "name": "status_yukki",
+      "files": [
+        "status__yukki.char"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "chaotic_interference",
+      "files": [
+        "2024_chaotic_interference"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "some_hope.botd",
+      "files": [
+        "some_hope._botd_3"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -3080,9 +3118,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3133,6 +3173,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
@@ -3160,9 +3201,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3213,6 +3256,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
@@ -3240,9 +3284,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3293,6 +3339,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
@@ -3320,9 +3367,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3373,6 +3422,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
@@ -3400,9 +3450,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3453,6 +3505,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",
@@ -3480,9 +3533,11 @@
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
       "item_group.ward.forlorn": "Forlorn",
       "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
+      "subtitles.some_hope.botd": "",
       "entity.ward.death": "Death",
       "block.ward.sculk_nuke": "Sculk Nuke",
       "item.ward.death_spawn_egg": "Death Spawn Egg",
@@ -3533,6 +3588,7 @@
       "item.ward.corruptedsword": "Corrupted Sword",
       "gui.ward.kill.button_empty1": "",
       "item.ward.corruptedsniper": "Corrupted Sniper",
+      "subtitles.status_yukki": "",
       "gui.ward.kill.button_empty5": "",
       "block.ward.commandore": "Command Ore",
       "item.ward.end_game_fight.desc": "The Fight Between The Presten and the Past",

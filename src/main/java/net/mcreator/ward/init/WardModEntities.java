@@ -16,7 +16,9 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.ward.entity.NetherlinGodEntity;
 import net.mcreator.ward.entity.MatterBulletEntity;
+import net.mcreator.ward.entity.EnderlinGodEntity;
 import net.mcreator.ward.entity.DeathEntity;
 import net.mcreator.ward.entity.BluegamerwolfEntity;
 import net.mcreator.ward.WardMod;
@@ -32,6 +34,10 @@ public class WardModEntities {
 			EntityType.Builder.<BluegamerwolfEntity>of(BluegamerwolfEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BluegamerwolfEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NetherlinGodEntity>> NETHERLIN_GOD = register("netherlin_god", EntityType.Builder.<NetherlinGodEntity>of(NetherlinGodEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NetherlinGodEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<EnderlinGodEntity>> ENDERLIN_GOD = register("enderlin_god", EntityType.Builder.<EnderlinGodEntity>of(EnderlinGodEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnderlinGodEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -42,6 +48,8 @@ public class WardModEntities {
 		event.enqueueWork(() -> {
 			DeathEntity.init();
 			BluegamerwolfEntity.init();
+			NetherlinGodEntity.init();
+			EnderlinGodEntity.init();
 		});
 	}
 
@@ -49,5 +57,7 @@ public class WardModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(DEATH.get(), DeathEntity.createAttributes().build());
 		event.put(BLUEGAMERWOLF.get(), BluegamerwolfEntity.createAttributes().build());
+		event.put(NETHERLIN_GOD.get(), NetherlinGodEntity.createAttributes().build());
+		event.put(ENDERLIN_GOD.get(), EnderlinGodEntity.createAttributes().build());
 	}
 }

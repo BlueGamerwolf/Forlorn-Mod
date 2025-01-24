@@ -93,7 +93,7 @@ public class WardModItems {
 	public static final RegistryObject<Item> COMMAND_HOE = REGISTRY.register("command_hoe", () -> new CommandHoeItem());
 	public static final RegistryObject<Item> COMMAND_BLADE = REGISTRY.register("command_blade", () -> new CommandBladeItem());
 	public static final RegistryObject<Item> END_GAME_FIGHT = REGISTRY.register("end_game_fight", () -> new EndGameFightItem());
-	public static final RegistryObject<Item> BLUEGAMERWOLF_SPAWN_EGG = REGISTRY.register("bluegamerwolf_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.BLUEGAMERWOLF, -13369549, -13369396, new Item.Properties()));
+	public static final RegistryObject<Item> BLUEGAMERWOLF_SPAWN_EGG = REGISTRY.register("bluegamerwolf_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.BLUEGAMERWOLF, -16776961, -16711681, new Item.Properties()));
 	public static final RegistryObject<Item> COMMANDSET_HELMET = REGISTRY.register("commandset_helmet", () -> new CommandsetItem.Helmet());
 	public static final RegistryObject<Item> COMMANDSET_CHESTPLATE = REGISTRY.register("commandset_chestplate", () -> new CommandsetItem.Chestplate());
 	public static final RegistryObject<Item> COMMANDSET_LEGGINGS = REGISTRY.register("commandset_leggings", () -> new CommandsetItem.Leggings());
@@ -102,6 +102,8 @@ public class WardModItems {
 	public static final RegistryObject<Item> ENDERLINE_BLADE = REGISTRY.register("enderline_blade", () -> new EnderlineBladeItem());
 	public static final RegistryObject<Item> HUMAN_BLADE = REGISTRY.register("human_blade", () -> new HumanBladeItem());
 	public static final RegistryObject<Item> DARKNESS_LUCKY_BLOCK = block(WardModBlocks.DARKNESS_LUCKY_BLOCK);
+	public static final RegistryObject<Item> NETHERLIN_GOD_SPAWN_EGG = REGISTRY.register("netherlin_god_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.NETHERLIN_GOD, -65536, -26368, new Item.Properties()));
+	public static final RegistryObject<Item> ENDERLIN_GOD_SPAWN_EGG = REGISTRY.register("enderlin_god_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.ENDERLIN_GOD, -6750055, -13434829, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

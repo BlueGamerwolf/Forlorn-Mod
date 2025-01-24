@@ -9,7 +9,9 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.ward.client.renderer.NetherlinGodRenderer;
 import net.mcreator.ward.client.renderer.MatterBulletRenderer;
+import net.mcreator.ward.client.renderer.EnderlinGodRenderer;
 import net.mcreator.ward.client.renderer.DeathRenderer;
 import net.mcreator.ward.client.renderer.BluegamerwolfRenderer;
 
@@ -20,5 +22,7 @@ public class WardModEntityRenderers {
 		event.registerEntityRenderer(WardModEntities.MATTER_BULLET.get(), MatterBulletRenderer::new);
 		event.registerEntityRenderer(WardModEntities.DEATH.get(), DeathRenderer::new);
 		event.registerEntityRenderer(WardModEntities.BLUEGAMERWOLF.get(), BluegamerwolfRenderer::new);
+		event.registerEntityRenderer(WardModEntities.NETHERLIN_GOD.get(), NetherlinGodRenderer::new);
+		event.registerEntityRenderer(WardModEntities.ENDERLIN_GOD.get(), EnderlinGodRenderer::new);
 	}
 }

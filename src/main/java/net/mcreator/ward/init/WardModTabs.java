@@ -74,6 +74,8 @@ public class WardModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(WardModItems.DEATH_SPAWN_EGG.get());
 			tabData.accept(WardModItems.BLUEGAMERWOLF_SPAWN_EGG.get());
+			tabData.accept(WardModItems.NETHERLIN_GOD_SPAWN_EGG.get());
+			tabData.accept(WardModItems.ENDERLIN_GOD_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

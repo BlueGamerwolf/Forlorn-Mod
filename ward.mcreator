@@ -3080,7 +3080,7 @@
       "type": "livingentity",
       "sortid": 191,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "netherlin_god",
       "metadata": {
         "files": [
@@ -3097,7 +3097,7 @@
       "type": "livingentity",
       "sortid": 192,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "enderlin_god",
       "metadata": {
         "files": [
@@ -3811,6 +3811,19 @@
             "children": [
               {
                 "name": "Lucky",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Summoning",
+            "children": [
+              {
+                "name": "BlueGamerwolf",
+                "children": []
+              },
+              {
+                "name": "Hael",
                 "children": []
               }
             ]

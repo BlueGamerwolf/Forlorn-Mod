@@ -7,7 +7,7 @@ import net.minecraft.world.level.LevelAccessor;
 public class Abiltiy1OnKeyPressedProcedure {
 
     public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
-        if (entity.getUUID().toString().equals("a1bc8320-401b-43ff-a73f-581ea979e506")) {
+        if (entity.getUUID().toString().equals("380df991-f603-344c-a090-369bad2a924a")) {
             // Pass the correct parameters to match the method signature
             BlueGamerwolfYTProcedure.execute(world, x, y, z, entity);
         } else if (entity.getUUID().toString().equals("d07322a7-1862-4b6d-92ea-0ef3ab2a7318")) {

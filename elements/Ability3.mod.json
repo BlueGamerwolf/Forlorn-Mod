@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "MINUS",
+    "keyBindingName": "Ability 3",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Ability3OnKeyPressed"
+    }
+  }
+}

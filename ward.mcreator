@@ -2498,6 +2498,9 @@
       "locked_code": false,
       "registry_name": "bluegamerwolf_on_initial_entity_spawn",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/BluegamerwolfOnInitialEntitySpawnProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -2826,7 +2829,7 @@
       "name": "HaelPart1",
       "type": "procedure",
       "sortid": 174,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "hael_part_1",
       "metadata": {
@@ -2841,7 +2844,7 @@
       "name": "HaelPart2",
       "type": "procedure",
       "sortid": 175,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "hael_part_2",
       "metadata": {
@@ -2870,7 +2873,7 @@
       "name": "Abiltiy1OnKeyPressed",
       "type": "procedure",
       "sortid": 178,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "abilty_1_on_key_pressed",
       "metadata": {
@@ -2885,7 +2888,7 @@
       "name": "Ability2OnKeyPressed",
       "type": "procedure",
       "sortid": 179,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "ability_2_on_key_pressed",
       "metadata": {
@@ -2914,7 +2917,7 @@
       "name": "IfzenModeActive",
       "type": "procedure",
       "sortid": 181,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "ifzen_mode_active",
       "metadata": {
@@ -2988,7 +2991,7 @@
       "name": "Snap",
       "type": "procedure",
       "sortid": 186,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "snap",
       "metadata": {
@@ -3108,6 +3111,40 @@
         ]
       },
       "path": "~/entities"
+    },
+    {
+      "name": "Ability3OnKeyPressed",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "ability_3_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/Ability3OnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/keybind"
+    },
+    {
+      "name": "Ability3",
+      "type": "keybind",
+      "sortid": 194,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "ability_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/network/Ability3Message.java"
+        ]
+      },
+      "path": "~/keybind"
     }
   ],
   "variable_elements": [],
@@ -3151,9 +3188,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "The Voidstone Abyss",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "The Voidstone Abyss",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3189,6 +3226,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Basic Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",
@@ -3238,9 +3276,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3276,6 +3314,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",
@@ -3325,9 +3364,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3363,6 +3402,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",
@@ -3412,9 +3452,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3450,6 +3490,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",
@@ -3499,9 +3540,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3537,6 +3578,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",
@@ -3586,9 +3628,9 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "item_group.ward.forlorn": "Forlorn",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "subtitles.chaotic_interference": "",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "item_group.ward.forlorn": "Forlorn",
       "gui.ward.kill.label_select_a_player": "Select a Player",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
@@ -3624,6 +3666,7 @@
       "key.ward.ability_2": "Ability 2",
       "block.ward.cable_energy_e": "Cable Energyn",
       "item.ward.human_blade": "Ender Blade",
+      "key.ward.ability_3": "Ability 3",
       "item.ward.corrupted_reaper_scythe": "Corrupted Reaper Scythe",
       "block.ward.cable_energy_i": "Energy Cable",
       "item.ward.command_blade": "Command Blade",

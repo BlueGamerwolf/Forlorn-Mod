@@ -2,35 +2,67 @@ package net.mcreator.ward.procedures;
 
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import io.netty.buffer.Unpooled;
-import net.mcreator.ward.world.inventory.KillMenu;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.level.Level;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.GameRules;
 
 public class SnapProcedure {
 
     public static void execute(ServerPlayer player) {
-        if (player == null) return;
+        if (player == null) {
+            return;
+        }
 
-        // Set the title for the screen
-        Component title = Component.literal("Select Player to Snap");
+        player.sendSystemMessage(Component.literal("Select Snap Type: \n1. Kill All Players (Requires 50 XP Levels) \n2. Kill All Wardens (Requires Nether Star) \n3. Recreate Universe (Requires 5 Dragon Eggs)"));
+    }
 
-        // Open the KillScreen GUI for the player
-        player.openMenu(new MenuProvider() {
-            @Override
-            public Component getDisplayName() {
-                return title;
-            }
+    public static void performSnapAction(ServerPlayer player, int snapType) {
+        MinecraftServer server = player.getServer();
+        if (server == null) return;
+        
+        switch (snapType) {
+            case 1: // Kill all players (Requires 50 XP Levels)
+                if (player.experienceLevel >= 50) {
+                    player.giveExperienceLevels(-50);
+                    for (ServerPlayer target : server.getPlayerList().getPlayers()) {
+                        target.sendSystemMessage(Component.literal(target.getDisplayName().getString() + " dusted away"));
+                        target.kill();
+                    }
+                } else {
+                    player.sendSystemMessage(Component.literal("You need at least 50 XP levels to perform this snap!"));
+                }
+                break;
 
-            @Override
-            public AbstractContainerMenu createMenu(int id, Inventory playerInventory, Player playerEntity) {
-                // Create a FriendlyByteBuf to pass data to the container
-                FriendlyByteBuf buffer = new FriendlyByteBuf(Unpooled.buffer());
-                return new KillMenu(id, playerInventory, buffer);
-            }
-        });
+            case 2: // Kill all wardens (Requires Nether Star)
+                if (player.getInventory().contains(new ItemStack(Items.NETHER_STAR))) {
+                    player.getInventory().removeItem(new ItemStack(Items.NETHER_STAR));
+                    server.getPlayerList().broadcastSystemMessage(Component.literal("I am Iron-Man"), false);
+                    server.overworld().getEntities().forEach(entity -> {
+                        if (entity.getType().toString().equals("minecraft:warden")) {
+                            entity.kill();
+                        }
+                    });
+                } else {
+                    player.sendSystemMessage(Component.literal("You need a Nether Star to perform this snap!"));
+                }
+                break;
+
+            case 3: // Recreate the universe (Requires 5 Dragon Eggs)
+                if (player.getInventory().countItem(Items.DRAGON_EGG) >= 5) {
+                    player.getInventory().removeItem(new ItemStack(Items.DRAGON_EGG, 5));
+                    ServerLevel overworld = server.overworld();
+                    overworld.getGameRules().getRule(GameRules.MOB_GRIEFING).set(false, server); // Corrected rule name
+                    overworld.getGameRules().getRule(GameRules.RULE_DAYLIGHT).set(false, server);
+                    overworld.getGameRules().getRule(GameRules.RULE_WEATHER_CYCLE).set(false, server);
+                    overworld.getGameRules().getRule(GameRules.RULE_KEEPINVENTORY).set(true, server);
+                    server.getPlayerList().broadcastSystemMessage(Component.literal("The universe has been recreated!"), false);
+                } else {
+                    player.sendSystemMessage(Component.literal("You need 5 Dragon Eggs to perform this snap!"));
+                }
+                break;
+        }
     }
 }

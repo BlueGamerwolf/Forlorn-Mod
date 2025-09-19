@@ -4,6 +4,9 @@
   "definition": {
     "triggerKey": "N",
     "keyBindingName": "Ability 2",
-    "keyBindingCategoryKey": "misc"
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Ability2OnKeyPressed"
+    }
   }
 }

@@ -34,7 +34,7 @@ import com.google.common.collect.ImmutableSet;
 public class WardModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, WardMod.MODID);
-	public static final RegistryObject<VillagerProfession> DARKNESS_TRADER = registerProfession("darkness_trader", () -> Blocks.SCULK_CATALYST, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sculk_sensor.clicking")));
+	public static final RegistryObject<VillagerProfession> DARKNESS_TRADER = registerProfession("darkness_trader", () -> Blocks.EMERALD_BLOCK, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sculk_sensor.clicking")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

@@ -19,4 +19,5 @@ public class WardModSounds {
 	public static final RegistryObject<SoundEvent> STATUS_YUKKI = REGISTRY.register("status_yukki", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ward", "status_yukki")));
 	public static final RegistryObject<SoundEvent> CHAOTIC_INTERFERENCE = REGISTRY.register("chaotic_interference", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ward", "chaotic_interference")));
 	public static final RegistryObject<SoundEvent> SOME_HOPE_BOTD = REGISTRY.register("some_hope.botd", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ward", "some_hope.botd")));
+	public static final RegistryObject<SoundEvent> IN_THE_END = REGISTRY.register("in_the_end", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ward", "in_the_end")));
 }

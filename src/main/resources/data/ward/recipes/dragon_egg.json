@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " XZMO ",
+    "OSBASX",
+    "MACCBZ",
+    "ZBCCAM",
+    "XSABSO",
+    " OMZX "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:end_crystal"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:dragon_breath"
+    },
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "X": {
+      "item": "minecraft:host_armor_trim_smithing_template"
+    },
+    "Z": {
+      "item": "minecraft:shaper_armor_trim_smithing_template"
+    },
+    "M": {
+      "item": "minecraft:raiser_armor_trim_smithing_template"
+    },
+    "O": {
+      "item": "minecraft:wayfinder_armor_trim_smithing_template"
+    }
+  },
+  "result": {
+    "item": "minecraft:dragon_egg",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

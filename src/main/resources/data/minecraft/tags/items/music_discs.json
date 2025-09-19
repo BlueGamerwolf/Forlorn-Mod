@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ward:end_game_fight"
+    "ward:end_game_fight",
+    "ward:in_the_end"
   ]
 }

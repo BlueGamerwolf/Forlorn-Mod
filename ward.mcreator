@@ -169,7 +169,7 @@
       "type": "tab",
       "sortid": 18,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "forlorn",
       "metadata": {
         "files": []
@@ -306,21 +306,6 @@
         ]
       },
       "path": "~/items/weapons"
-    },
-    {
-      "name": "Generator",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "generator",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/GeneratorProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script"
     },
     {
       "name": "CableEnergyN",
@@ -1401,7 +1386,7 @@
       "type": "command",
       "sortid": 87,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "run",
       "metadata": {
         "files": [
@@ -1805,7 +1790,7 @@
       "type": "procedure",
       "sortid": 112,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "sculk_nuke_block_destroyed_by_player",
       "metadata": {
         "files": [
@@ -2520,7 +2505,7 @@
           }
         ]
       },
-      "path": "~/script"
+      "path": "~/script/entity"
     },
     {
       "name": "BluegamerwolfEntityDies",
@@ -2552,7 +2537,7 @@
           }
         ]
       },
-      "path": "~/script"
+      "path": "~/script/entity"
     },
     {
       "name": "NickTheClown",
@@ -2717,7 +2702,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/script"
+      "path": "~/script/commands"
     },
     {
       "name": "Vanish",
@@ -2826,36 +2811,6 @@
       "path": "~/script/Block/Lucky"
     },
     {
-      "name": "HaelPart1",
-      "type": "procedure",
-      "sortid": 174,
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "hael_part_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/HaelPart1Procedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script/users/Hael"
-    },
-    {
-      "name": "HaelPart2",
-      "type": "procedure",
-      "sortid": 175,
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "hael_part_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/HaelPart2Procedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script/users/Hael"
-    },
-    {
       "name": "Ability2",
       "type": "keybind",
       "sortid": 177,
@@ -2873,7 +2828,7 @@
       "name": "Abiltiy1OnKeyPressed",
       "type": "procedure",
       "sortid": 178,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "abilty_1_on_key_pressed",
       "metadata": {
@@ -2888,7 +2843,7 @@
       "name": "Ability2OnKeyPressed",
       "type": "procedure",
       "sortid": 179,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "ability_2_on_key_pressed",
       "metadata": {
@@ -2912,21 +2867,6 @@
         ]
       },
       "path": "~/keybind"
-    },
-    {
-      "name": "IfzenModeActive",
-      "type": "procedure",
-      "sortid": 181,
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "ifzen_mode_active",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/IfzenModeActiveProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/script/users"
     },
     {
       "name": "FlightOnKeyPressed",
@@ -2986,42 +2926,6 @@
         ]
       },
       "path": "~/GUI"
-    },
-    {
-      "name": "Snap",
-      "type": "procedure",
-      "sortid": 186,
-      "compiles": false,
-      "locked_code": true,
-      "registry_name": "snap",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/ward/procedures/SnapProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/script/users/Josh"
     },
     {
       "name": "DarknessLuckyBlock",
@@ -3116,7 +3020,7 @@
       "name": "Ability3OnKeyPressed",
       "type": "procedure",
       "sortid": 193,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "ability_3_on_key_pressed",
       "metadata": {
@@ -3130,14 +3034,14 @@
           }
         ]
       },
-      "path": "~/keybind"
+      "path": "~/script/Keybind/Abilitys"
     },
     {
       "name": "Ability3",
       "type": "keybind",
       "sortid": 194,
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "registry_name": "ability_3",
       "metadata": {
         "files": [
@@ -3145,6 +3049,79 @@
         ]
       },
       "path": "~/keybind"
+    },
+    {
+      "name": "Snapmode",
+      "type": "command",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "snapmode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/command/SnapmodeCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "InTheEnd",
+      "type": "musicdisc",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_the_end",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/item/InTheEndItem.java",
+          "src/main/resources/assets/ward/models/item/in_the_end.json"
+        ]
+      },
+      "path": "~/items/Disk"
+    },
+    {
+      "name": "Dragonegginf",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dragonegginf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/DragonegginfProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "Polishedblackstonepressureplateprocedure",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "polishedblackstonepressureplateprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/PolishedblackstonepressureplateprocedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/script"
+    },
+    {
+      "name": "Killall",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "killall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ward/procedures/KillallProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -3180,6 +3157,14 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "in_the_end",
+      "files": [
+        "nightcore_-_in_the_end"
+      ],
+      "category": "music",
+      "subtitle": "In The End - NightCore"
     }
   ],
   "language_map": {
@@ -3188,10 +3173,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "The Voidstone Abyss",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "The Voidstone Abyss",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3257,6 +3244,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3276,10 +3264,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3345,6 +3335,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3364,10 +3355,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3433,6 +3426,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3452,10 +3446,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3521,6 +3517,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3540,10 +3537,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3609,6 +3608,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3628,10 +3628,12 @@
       "item.ward.enderlin_god_spawn_egg": "Enderlin God Spawn Egg",
       "item.ward.matter_ball": "Matter Ball",
       "item.ward.corrupted_pickaxe": "Corrupted Pickaxe",
-      "subtitles.chaotic_interference": "",
-      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
       "item_group.ward.forlorn": "Forlorn",
+      "entity.ward.bluegamerwolf": "Blue_gamerwolf",
+      "subtitles.chaotic_interference": "",
+      "subtitles.in_the_end": "In The End - NightCore",
       "gui.ward.kill.label_select_a_player": "Select a Player",
+      "item.ward.in_the_end.desc": "In The End - Nightcore",
       "item.ward.commandshuvel": "Command shuvel",
       "item.ward.commandset_leggings": "Commandset Leggings",
       "subtitles.some_hope.botd": "",
@@ -3697,6 +3699,7 @@
       "item.ward.commandset_chestplate": "Commandset Chestplate",
       "block.ward.cable_endergy_l": "Cable Energy",
       "item.ward.commandset_boots": "Commandset Boots",
+      "item.ward.in_the_end": "In The End",
       "item.ward.corrupted_ingot": "Corrupted Ingot",
       "block.ward.cable_energy_tx": "Cable Energyn",
       "block.ward.lucky": "Lucky",
@@ -3870,6 +3873,14 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "entity",
+            "children": []
+          },
+          {
+            "name": "commands",
+            "children": []
           }
         ]
       },

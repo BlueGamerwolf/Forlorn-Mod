@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "In The End",
+    "rarity": "EPIC",
+    "texture": "wolf",
+    "description": "In The End - Nightcore",
+    "creativeTab": {
+      "value": "CUSTOM:Forlorn"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "music": {
+      "value": "CUSTOM:in_the_end"
+    },
+    "lengthInTicks": 4000,
+    "analogOutput": 15
+  }
+}

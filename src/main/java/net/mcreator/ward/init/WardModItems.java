@@ -22,6 +22,7 @@ import net.mcreator.ward.item.Part1Item;
 import net.mcreator.ward.item.NetherlineBladeItem;
 import net.mcreator.ward.item.MattermulipulatorItem;
 import net.mcreator.ward.item.MatterBallItem;
+import net.mcreator.ward.item.InTheEndItem;
 import net.mcreator.ward.item.HumanBladeItem;
 import net.mcreator.ward.item.EnderlineBladeItem;
 import net.mcreator.ward.item.EndGameFightItem;
@@ -104,6 +105,7 @@ public class WardModItems {
 	public static final RegistryObject<Item> DARKNESS_LUCKY_BLOCK = block(WardModBlocks.DARKNESS_LUCKY_BLOCK);
 	public static final RegistryObject<Item> NETHERLIN_GOD_SPAWN_EGG = REGISTRY.register("netherlin_god_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.NETHERLIN_GOD, -65536, -26368, new Item.Properties()));
 	public static final RegistryObject<Item> ENDERLIN_GOD_SPAWN_EGG = REGISTRY.register("enderlin_god_spawn_egg", () -> new ForgeSpawnEggItem(WardModEntities.ENDERLIN_GOD, -6750055, -13434829, new Item.Properties()));
+	public static final RegistryObject<Item> IN_THE_END = REGISTRY.register("in_the_end", () -> new InTheEndItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

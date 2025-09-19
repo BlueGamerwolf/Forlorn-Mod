@@ -21,31 +21,7 @@ description="Tempararolry"
 
 
 [[dependencies.ward]]
-    modId="bettercombat"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.ward]]
     modId="create"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.ward]]
-    modId="playeranimator"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.ward]]
-    modId="jei"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.ward]]
-    modId="cloth-config"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

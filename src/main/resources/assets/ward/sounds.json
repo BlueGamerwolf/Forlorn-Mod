@@ -31,5 +31,14 @@
         "stream": false
       }
     ]
+  },
+  "in_the_end": {
+    "subtitle": "subtitles.in_the_end",
+    "sounds": [
+      {
+        "name": "ward:nightcore_-_in_the_end",
+        "stream": true
+      }
+    ]
   }
 }

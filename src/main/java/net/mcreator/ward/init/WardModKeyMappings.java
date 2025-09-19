@@ -18,6 +18,7 @@ import net.minecraft.client.KeyMapping;
 import net.mcreator.ward.network.FlightMessage;
 import net.mcreator.ward.network.DevMessage;
 import net.mcreator.ward.network.Ability3Message;
+import net.mcreator.ward.network.Ability2Message;
 import net.mcreator.ward.network.Ability1Message;
 import net.mcreator.ward.WardMod;
 
@@ -36,7 +37,19 @@ public class WardModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping ABILITY_2 = new KeyMapping("key.ward.ability_2", GLFW.GLFW_KEY_N, "key.categories.misc");
+	public static final KeyMapping ABILITY_2 = new KeyMapping("key.ward.ability_2", GLFW.GLFW_KEY_N, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				WardMod.PACKET_HANDLER.sendToServer(new Ability2Message(0, 0));
+				Ability2Message.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 	public static final KeyMapping ABILITY_1 = new KeyMapping("key.ward.ability_1", GLFW.GLFW_KEY_B, "key.categories.misc") {
 		private boolean isDownOld = false;
 
@@ -92,6 +105,7 @@ public class WardModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				DEV.consumeClick();
+				ABILITY_2.consumeClick();
 				ABILITY_1.consumeClick();
 				FLIGHT.consumeClick();
 				ABILITY_3.consumeClick();
